@@ -1,0 +1,108 @@
+/************************************
+	Coming soon
+*************************************/
+.coming-soon {
+	background: {
+		image: url('../images/pages/coming_soon_bg.png');
+		size: 90% 90%;
+		repeat: no-repeat;
+		position: center;
+	}
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	.coming-soon_block {
+		text-align: center;
+		h1 {
+			margin-bottom: 20px;
+		}
+		.subtitle {
+			@include font-regular(14px, $title, 1);
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			margin-bottom: 100px;
+		}
+		#event-countdown {
+			padding-bottom: 40px;
+			margin-bottom: 80px;
+			border-bottom: 1px solid $line;
+			.countdown-number {
+				margin-right: 100px;
+				text-transform: uppercase;
+				display: inline-block;
+				@include font-regular(16px, $title, 1);
+				&:last-child {
+					margin-right: 0;
+				}
+				br {
+					display: none;
+				}
+				span {
+					@include font-bold(60px, $green, 1);
+					display: inline-block;
+					&:after {
+						content: "/";
+						@include font-regular(16px, $title, 1);
+						display: inline-block;
+					}
+				}
+			}
+		}
+		.follow-us {
+			h5 {
+				@include font-regular(18px, $title, 1);
+				margin-bottom: 30px;
+			}
+			a {
+				height: 30px;
+				width: 30px;
+				line-height: 30px;
+				margin: 0 15px;
+			}
+		}
+	}
+}
+@include mobile {
+	.coming-soon {
+		background-size: cover;
+		.coming-soon_block {
+			#event-countdown {
+				.countdown-number{
+					margin-right: 15px;
+					font-size: 14px;
+					span {
+						font-size: 28px;
+					}
+				}
+			}
+		}
+	}
+}
+@include tablet {
+	.coming-soon {
+		background-size: cover;
+		.coming-soon_block {
+			#event-countdown {
+				.countdown-number{
+					margin-right: 40px;
+					// font-size: 14px;
+					span {
+						font-size: 40px;
+					}
+				}
+			}
+		}
+	}
+}
+@include small-desktop {
+	.coming-soon {
+		.coming-soon_block {
+			#event-countdown {
+				.countdown-number{
+					margin-right: 60px;
+				}
+			}
+		}
+	}
+}

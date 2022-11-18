@@ -1,0 +1,47 @@
+/************************************
+    Input form template
+*************************************/
+.no-round-input {
+	@include input(0,$line,0 20px,50px);
+}
+.no-round-input-bg {
+    @include input(0,$line,0 20px,50px);
+    background-color: $line;
+}
+.textarea-form-bg {
+    @include input(0,$line,20px 20px,auto);
+    background-color: $line;
+}
+.round-input {
+	@include input(999px,$line,0 25px,50px);
+}
+.no-border {
+	border: 0!important;
+}
+.select-form {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border: 1px solid $line;
+    padding: 10px 30px 10px 20px;
+    background: {
+    	image: url(../images/arrow_carrot-down.svg);
+    	repeat: no-repeat;
+    	size: 15px;
+    	position: 90% center;
+    }
+    &:focus {
+        outline: 0;
+        box-shadow: 0;
+        border-color: $green;
+    }
+}
+.textarea-form {
+    @include textarea(0,$line,20px 20px,auto);
+    resize: none;
+}

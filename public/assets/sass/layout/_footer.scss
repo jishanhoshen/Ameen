@@ -1,0 +1,256 @@
+/************************************
+	Footer
+*************************************/
+footer {
+	.footer-logo {
+		margin-bottom: 20px;
+	}
+	.footer-contact {
+		margin-bottom: 15px;
+		p {
+			@include font-medium(16px, $regular, 36px)
+		}
+	}
+	.footer-social {
+		a {
+		    height: 40px;
+		    width: 40px;
+		    line-height: 40px;
+		    text-align: center;
+		    margin-right: 12px;
+		    color: $regular;
+		}
+	}
+	.footer-quicklink {
+		display: flex;
+		flex-direction: column;
+		h5 {
+			@include font-bold(16px, $title, 1);
+			text-transform: uppercase;
+		    margin-bottom: 26px;
+    		margin-top: 16px;
+		}
+		a {
+			@include link-medium(16px, $regular, 36px, $green)
+		}
+	}
+	.newletter {
+		margin-top: 60px;
+		padding: 30px;
+		background-color: $green;
+		.newletter_text {
+			h5 {
+				@include font-bold(22px, $white, 1);
+				margin-bottom: 10px;
+			}
+			p {
+				@include font-medium(16px, $white, 24px);
+			}
+		}
+		.newletter_input {
+			position: relative;
+			input {
+				height: 50px;
+				background-color: #98d25f;
+				border: 0;
+				caret-color: $white;
+				color: $white;
+				&::placeholder {
+					color: $white;
+				}
+			}
+			button {
+				position: absolute;
+				top: 0;
+				right: 0;
+				height: 50px;
+				@include button($white,$green,16px,999px,2px,$white,15px 30px,#ffffff96,$green,#ffffff96);
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+				
+			}
+		}
+	}
+	.footer-v2_header {
+		padding-bottom: 50px;
+		border-bottom: 1px solid $line;
+		.newletter_v2 {
+			margin-top: 0;
+			background-color: $trans;
+			padding: 0;
+			.newletter_text {
+				margin-bottom: 25px;
+				h5 {
+					@include font-bold(16px, $title, 1);
+					margin-bottom: 30px;
+					margin-top: 16px;
+				}
+				p {
+					@include font-medium(16px, $regular, 24px);
+					line-height: 26px;
+				}
+			}
+			.newletter_input {
+				position: relative;
+				input {
+					background-color: $subcolor-7;
+					caret-color: unset;
+					color: $title;
+					&::placeholder {
+						color: $disable-2;
+					}
+				}
+				button {
+					position: absolute;
+					top: 0;
+					right: 0;
+					height: 50px;
+					@include button($green,$white,13px,999px,2px,$green,15px 30px,$trans,$green,$green);
+					border-top-left-radius: 0;
+					border-bottom-left-radius: 0;
+					
+				}
+			}
+		}
+	}	
+	.footer-credit {
+		padding: 15px 0;
+		.footer-creadit_block {
+			p {
+				@include font-medium(16px, $regular, 1);
+				line-height: 20px;
+			}
+		}
+	}
+}
+/************************************
+	Footer pink
+*************************************/
+footer.pink {
+	.footer-quicklink {
+		a {
+			@include link-medium(16px, $regular, 36px, $pink)
+		}
+	}
+	.newletter {
+		background-color: $pink;
+		.newletter_input {
+			position: relative;
+			input {
+				background-color: #ff9795;
+			}
+			button {
+				position: absolute;
+				top: 0;
+				right: 0;
+				height: 50px;
+				@include button($white,$pink,16px,999px,2px,$white,15px 30px,#ffffff96,$pink,#ffffff96);
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+				
+			}
+		}
+	}
+}
+/************************************
+	Footer coffee
+*************************************/
+footer.coffee {
+	.footer-quicklink {
+		a {
+			@include link-medium(16px, $regular, 36px, $coffee)
+		}
+	}
+	.newletter {
+		background-color: $coffee;
+		.newletter_input {
+			position: relative;
+			input {
+				background-color: #ffbb67;
+			}
+			button {
+				position: absolute;
+				top: 0;
+				right: 0;
+				height: 50px;
+				@include button($white,$coffee,16px,999px,2px,$white,15px 30px,#ffffff96,$coffee,#ffffff96);
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+				
+			}
+		}
+	}
+}
+
+@include mobile {
+	footer {
+		.footer-social {
+			margin-bottom: 30px;
+		}
+		.footer-quicklink {
+			margin-bottom: 20px;
+			h5 {
+				margin-bottom: 20px;
+    			margin-top: 0px;
+			}
+		}
+		.newletter {
+			margin-top: 0;
+			padding: 30px 0;
+			.newletter_text {
+				margin-bottom: 20px;
+			}
+		}
+		.footer-credit {
+			.footer-creadit_block {
+				p {
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}	
+}
+
+@include tablet {
+	footer {
+		.footer-social {
+			margin-bottom: 30px;
+		}
+		.newletter {
+			margin-top: 0;
+			.newletter_text {
+				margin-bottom: 20px;
+			}
+		}
+		.footer-quicklink {
+			margin-bottom: 20px;
+			h5 {
+				margin-bottom: 20px;
+				margin-top: 0;
+			}
+		}
+		.footer-credit {
+			.footer-creadit_block {
+				p {
+					margin-bottom: 10px;
+				}
+				.payment-method {
+					max-width: 150px;
+				}
+			}
+		}
+	}
+}
+
+@include small-desktop {
+	footer {
+		.footer-v2_header {
+			.footer-social {
+				margin-bottom: 30px;
+			}
+		}
+		.footer-quicklink {
+			margin-bottom: 30px;
+		}
+	}
+}

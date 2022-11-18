@@ -1,0 +1,249 @@
+/************************************
+	About us
+*************************************/
+.about-us {
+	margin-bottom: 60px;
+	.title {
+		font-size: 36px;
+		line-height: 48px;
+		margin-bottom: 30px;
+	}
+	.our-story {
+		margin-bottom: 60px;
+		.title {
+			&:after {
+			margin-left: 0;
+			margin-right: 0;
+			}
+		}
+		.our-story_text {
+			p {
+				@include font-regular(16px, $regular, 26px);
+				margin-bottom: 20px;
+			}
+		}
+		.our-story_video {
+			position: relative;
+			img {
+				width: 100%;
+			}
+			.play-btn {
+				position: absolute;
+				@include button($white,$green,13px,999px,0px,$green,20px,$green,$white,$green);
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%,-50%);
+				   -moz-transform: translate(-50%,-50%);
+				    -ms-transform: translate(-50%,-50%);
+				     -o-transform: translate(-50%,-50%);
+				        transform: translate(-50%,-50%);
+			}
+		}
+	}
+	.our-number {
+		margin-bottom: 60px;
+		padding: 50px 0;
+		border: 1px solid $line;
+		.our-number_block {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			.our-number_icon {
+				margin-right: 20px;
+				img {
+					max-height: 100px;
+				}
+			}
+			.our-number_info {
+				.nummber-increase {
+					@include font-medium(48px, $title, 1);
+				}
+				p {
+					@include font-regular(16px, $regular, 1);
+				}
+			}
+		}
+	}
+	.why-choose-us {
+		margin-bottom: 60px;
+		height: 450px;
+		padding: 50px 0 0 0;
+		overflow: hidden;
+		background: {
+			image: url(../images/pages/wcu_bg.png);
+			repeat: no-repeat;
+			size: cover;
+			position: center;
+		}
+		.title {
+			&:after {
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+		.wcu_img {
+			img {
+				width: 100%;
+			}
+		}
+		.wcu-wrapper {
+			.wcu-block {
+				display: flex;
+				align-items: center;
+				margin-bottom: 30px;
+				.wcu_icon {
+					margin-right: 26px;
+					.icon-detail {
+						border-radius: 999px;
+						height: 54px;
+						width: 54px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+					}
+					img {
+						max-width: 100%;
+					}
+				}
+				.wcu_intro {
+					flex-grow: 1;
+					h5 {
+						@include font-bold(18px, $title, 1);
+						margin-bottom: 12px;
+					}
+					p {
+						@include font-regular(16px, $regular, 30px);
+						line-height: 24px;
+					}	
+				}
+			}
+		}
+	}
+	.our-farmer {
+		text-align: center;
+		.our-farmer-block {
+			position: relative;
+			transform-style: preserve-3d;
+			// box-shadow: 0 20px 70px -10px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
+			&:hover {
+				.farmer-contact_wrapper {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+			.farmer-img {
+				img {
+					width: 100%;
+				}
+			}
+			.farmer-contact_wrapper {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: rgba(0, 0, 0, 0.4);
+				opacity: 0;
+				visibility: hidden;
+				-webkit-transition: all 0.3s ease;
+				   -moz-transition: all 0.3s ease;
+				    -ms-transition: all 0.3s ease;
+				     -o-transition: all 0.3s ease;
+				        transition: all 0.3s ease;
+				.farmer-contact {
+					text-align: center;
+					transform: translateZ(30px);
+					h2 {
+						@include font-bold(22px, $white, 1);
+						margin-bottom: 15px;
+					}
+					h5 {
+						@include font-regular(12px, $white, 1);
+						margin-bottom: 30px;
+					}
+					.farmer-social {
+						a {
+							@include link-regular(16px, $white, 1, $white);
+							margin-right: 30px;
+							&:last-child {
+								margin-right: 0;
+							}
+						}
+					}
+				}
+			}	
+		}
+	}
+}
+@include mobile {
+	.about-us {
+		.our-number {
+			padding: 30px 0 0 0;
+			.our-number_block {
+				margin-bottom: 30px;
+			}
+		}
+		.why-choose-us {
+			height: auto;
+			.wcu_img {
+				margin-bottom: 30px;
+			}
+		}
+		.our-farmer {
+			.our-farmer-block {
+				margin-bottom: 30px;
+				.farmer-contact_wrapper {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+	}
+}
+@include tablet {
+	.about-us {
+		.our-number {
+			padding: 30px 0 0 0;
+			.our-number_block {
+				margin-bottom: 30px;
+			}
+		}
+		.why-choose-us {
+			height: auto;
+			.wcu_img {
+				margin-bottom: 30px;
+			}
+		}
+		.our-farmer {
+			.our-farmer-block {
+				margin-bottom: 30px;
+				.farmer-contact_wrapper {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+	}
+}
+@include small-desktop {
+	.about-us {
+		.why-choose-us {
+			height: auto;
+			.wcu_img {
+				margin-bottom: 30px;
+			}
+		}
+		.our-farmer {
+			.our-farmer-block {
+				margin-bottom: 30px;
+				.farmer-contact_wrapper {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+	}
+}

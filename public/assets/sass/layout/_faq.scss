@@ -1,0 +1,42 @@
+/************************************
+	FAQ
+*************************************/
+.faq {
+	margin-bottom: 60px;
+	#accordion {
+		.faq-question {
+			display: flex;
+			align-items: center;
+			background-color: $trans;
+			border: 0;
+			i {
+				color: $white;
+				background-color: $disable;
+				padding: 10px;
+				margin-right: 20px;
+			}
+			h3 {
+				@include font-regular(18px, $title, 26px);
+				text-transform: uppercase;
+				display: inline-block;
+			}
+			&.question-active {
+				outline: 0;
+				i {
+					color: $white;
+					background-color: $green;
+					padding: 10px;
+					&:before {
+					    content: "\4b";
+					}
+				}
+			}
+		}
+		.faq-answer {
+			@extend .faq-question;
+			p {
+				@include font-regular(16px, $regular, 24px);	
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+/************************************
+	Shop compare
+*************************************/
+.shop-compare {
+	margin-bottom: 60px;
+	.compre-table {
+		.table {
+			display: table;
+			th {
+				vertical-align: middle;
+				@include font-bold(16px, $title, 1);
+				text-transform: uppercase;
+				display: table-cell;
+				text-align: center;
+				border-bottom: 1px solid $line;
+				border-right: 1px solid $line;
+				border-top: 0;
+				width: 25%;
+				padding: 15px;
+				line-height: 24px;
+			}
+			td {
+				text-align: center;
+				vertical-align: middle;
+				border-top: 0;
+				border-bottom: 1px solid $line;
+				border-right: 1px solid $line;
+				display: table-cell!important;
+				width: 25%;
+				padding: 15px;
+				&:last-child {
+					border-right: 0;
+				}
+			}
+			.product-items {
+				text-align: center;
+				.product-img {
+					height: 135px;
+					width: 135px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin: auto;
+					padding: 15px;
+					img {
+						max-width: 100%;
+						max-height: 100%;
+					}
+				}
+				.product-name {
+					@include font-medium(18px, $title, 30px);
+				}
+
+			}
+			.product-rate {
+				i {
+					font-size: 14px;
+					color: $star;
+				}
+			}
+			.product-price {
+				@include font-medium(16px, $green, 1);
+			}
+			.add-to-cart {
+				a {
+					@include link-medium(16px, $regular, 1, $green);
+					text-transform: uppercase;
+				}
+			}
+			.product-availability {
+				@extend .product-price;
+				&.oos {
+					color: red;
+				}
+			}
+			.product-weight {
+				@extend .product-price;
+				color: $regular;
+			}
+			.product-color {
+				.color {
+					height: 10px;
+					width: 10px;
+					border-radius: 999px;
+					display: block;
+					margin: auto;
+				}
+			}
+			.product-sku {
+				@extend .product-weight;
+				border-bottom: 0;
+			}
+		}
+	}
+}
+
+@include mobile {
+	.shop-compare {
+		.compre-table {
+			.table {
+				display: inline-block;
+			}
+		}
+	}
+}
+
+@include tablet {
+	.shop-compare {
+		.compre-table {
+			.table {
+				display: inline-block;
+			}
+		}
+	}
+}

@@ -1,0 +1,131 @@
+/************************************
+	Mobile menu
+*************************************/
+#mobile-menu {
+	margin-bottom: 15px;
+	padding: 15px 0;
+	display: none;
+	.mobile-menu_block {
+		height: 100%;
+		.mobile-menu--control {
+			@include link-icon(18px,$title,1,$green);
+		}
+		.ogamin-mobile-menu_bg {
+		    position: fixed;
+		    width: 100vw;
+		    height: 100vh;
+		    z-index: 110;
+		    top: 0;
+		    left: 0;
+		    background-color: rgba(0, 0, 0, 0.65);
+		    display: none;
+		}
+		#ogami-mobile-menu {
+			position: fixed;
+			background-color: $white;
+			top: 0;
+			left: -100%;
+			z-index: 999;
+			width: 80vw;
+			height: 100vh;
+			transition: 0.4s;
+			overflow-y: auto;
+			#mobile-menu--closebtn {
+				width: 100%;
+			}
+			.sub-menu--expander {
+				i {
+					font-size: 20px;
+				}
+			}
+			.mobile-menu_items {
+				padding: 0 30px;
+				margin-bottom: 20px;
+				.toggleable  {
+					position: relative;
+					padding: 10px 0;
+					.menu-item {
+						@include font-regular(18px, $title, 1);
+						line-height: 28px;
+						&.active {
+							color: $green;
+						}
+					}
+					.sub-menu {
+						margin-top: 15px;
+						margin-left: 30px;
+						li {
+							a {
+								@include font-regular(15px, $title, 1);
+								line-height: 30px;
+								text-transform: capitalize;
+							}			
+						}
+					}
+					span {
+						position: absolute;
+						right: 0;
+						top: 10px;
+					}
+					
+				}
+			}
+			.mobile-login {
+				padding: 0 30px;
+				margin-bottom: 30px;
+				h2 {
+					@include font-bold(20px, $title, 1);
+					margin-bottom: 15px;
+				}
+				a {
+					@include link-regular(18px, $title, 1, $green);
+					display: block;
+					line-height: 28px;
+					padding: 5px 0;
+				}
+			}	
+			.mobile-social {
+				padding: 0 30px;
+				a {
+					@include link-icon(18px,$disable,1,$green);
+					margin-right: 25px;
+				}
+			}
+		}
+	}
+	.mobile-menu_logo {
+		height: 100%;
+	}
+	.mobile-product_function {
+		height: 100%;
+		a {
+			@include link-icon(18px,$title,1,$green);
+			padding-left: 15px;
+		}
+	}
+}
+@include mobile {
+	#mobile-menu {
+		display: block;
+	}
+}
+@include tablet {
+	#mobile-menu {
+		display: block;
+		.mobile-menu_block {
+			#ogami-mobile-menu {
+				width: 50vw;
+			}
+		}
+	}
+}
+@include small-desktop {
+	#mobile-menu {
+		display: block;
+		.mobile-menu_block {
+			#ogami-mobile-menu {
+				width: 50vw;
+			}
+		}
+	}
+}

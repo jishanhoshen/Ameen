@@ -1,0 +1,77 @@
+/************************************
+	Shop checkout
+*************************************/
+.shop-checkout {
+	margin-bottom: 40px;
+	.form-title {
+		@include font-bold(18px, $title, 1);
+		margin-bottom: 30px;
+	}
+	.form-group {
+		label {
+			@include font-regular(16px, $regular, 1);
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		margin-bottom: 30px;
+	}
+	.shopping-cart {
+		.cart-total_block {
+			margin-top: 0;
+			.table {
+				border: 0;
+				tbody {
+					th {
+						padding: 30px 10px;
+					}
+					td {
+						padding: 30px 10px;
+						text-align: right;
+					}
+					.name {
+						@include font-regular(16px, $title, 1);
+						border-top: 0;
+					}
+					.price {
+						color: $green;
+						&.black {
+							color: $title;
+						}
+					}
+					.total {
+						font-size: 20px;
+						color: $green;
+					}
+				}	
+			}
+		}
+		.submit-btn {
+			width: 100%;
+		}
+	}
+}
+/************************************
+	Order complete
+*************************************/
+.order-complete {
+	margin-bottom: 60px;
+	h1 {
+		@include font-bold(24px, $title, 27px);
+		padding: 80px 0;
+		margin-bottom: 50px;
+		span {
+			color: $green;
+		}
+	}
+}
+@include desktop {
+	.order-complete {
+		.benefit-block {
+			.our-benefits {
+				.benefit-detail {
+					border-right: 1px solid $line!important;
+				}
+			}
+		}  
+	}
+}

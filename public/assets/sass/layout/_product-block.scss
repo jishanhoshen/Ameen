@@ -1,0 +1,286 @@
+/************************************
+	Product block
+*************************************/
+/************************************
+	Home3 product block
+*************************************/
+.home3-product-block {
+	margin: 60px 0;
+	.sale-product {
+		margin: 20px 0 30px 0;
+		.sale-product_bottom {
+			border: 1px solid $line;
+		}
+	}
+	.customer-satisfied {
+		.customer-satisfied_border {
+			border: 1px solid $line;
+			padding: 30px;
+		}
+		.customer-satisfied_wrapper {
+			.customer-satisfied_block {
+				.customer-img {
+					height: 100px;
+					width: 100px;
+					border-radius: 999px;
+					border: 1px solid $line;
+					overflow: hidden;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					margin-bottom: 20px;
+					img {
+						max-width: 100%;
+						max-height: 100%;
+					}
+				}
+				.customer-info {
+					.customer-name {
+						@include font-bold(16px, $title, 1);
+						text-transform: uppercase;
+						margin-bottom: 25px;
+					}
+					.customer-comment {
+						@include font-regular(16px, $title, 26px);
+						margin-bottom: 25px;
+					}
+					.customer-rate {
+						margin-bottom: 55px;
+						i {
+							font-size: 16px;
+							color: $star;
+							padding: 0 3px;
+						}
+					}
+				}
+			}
+		}
+		.customer-satisfied_control {
+			.dots-wrap {
+				margin-bottom: 0;
+				li {
+					height: 8px;
+					width: 8px;
+					background-color: $subcolor-7;
+					border-radius: 999px;
+					display: inline-block;
+					margin: 0 5px;
+					&.slick-active {
+						width: 30px;
+						background-color: $pink;
+					}
+				}
+			}
+		}
+	}
+	.quick-banner {
+		margin-bottom: 20px;
+	}
+}
+/************************************
+	Home5 product block
+*************************************/
+.home5-product-block {
+	margin-bottom: 40px;
+	.mini-product-title {
+		@include font-bold(24px, $title, 1);
+		.mini-product_top {
+			display: flex;
+			align-items: flex-end;
+			justify-content: space-between;
+			margin-bottom: 30px;
+			.mini-product_control {
+				button {
+					@include button($trans,$title,11px,999px,1px,$line,0px,$coffee,$white,$line);
+					height: 25px;
+					width: 25px;
+					margin-right: 5px;
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+		.mini-product_bottom {
+			.mini-product_block {
+				.mini-product {
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+/************************************
+	Home1 best seller
+*************************************/
+.best-seller {
+
+}
+@include mobile {
+	.home3-product-block {
+		margin:  30px 0 30px 0;
+		#tab {
+			margin-bottom: 60px;
+		}
+		.deal-of-week_slide {
+			margin-bottom: 60px;
+			.week-deal_top {
+				h2 {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.sidebar-benefit {
+			margin-bottom: 30px;
+		}
+		.sale-product {
+			margin-bottom: 60px;
+			.sale-product_top {
+				h2 {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.customer-satisfied {
+			margin-bottom: 30px;
+		}
+		#tab-so1 {
+			margin-bottom: 30px;
+		}
+		#tab-so2 {
+			margin-bottom: 60px;
+		}
+		#tab {
+			margin-bottom: 60px;
+		}
+		.quick-banner {
+			margin-bottom: 30px;
+		}
+	}
+	.best-seller {
+		#tab-so1 {
+			margin-bottom: 40px;
+		}
+		#tab-so2 {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+@include tablet {
+	.home3-product-block {
+		margin:  30px 0 30px 0;
+		.deal-of-week_slide {
+			margin-bottom: 60px;
+			.week-deal_top {
+				h2 {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.sidebar-benefit {
+			margin-bottom: 30px;
+		}
+		.sale-product {
+			margin-bottom: 60px;
+			.sale-product_top {
+				h2 {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.customer-satisfied {
+			margin-bottom: 30px;
+		}
+		#tab {
+			margin-bottom: 30px;
+		}
+		.quick-banner {
+			margin-bottom: 30px;
+		}
+		#tab-so2 {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+@include small-desktop {
+	.home3-product-block {
+		margin:  30px 0 30px 0;
+		.deal-of-week_slide {
+			margin-bottom: 60px;
+			.week-deal_top {
+				h2 {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.sidebar-benefit {
+			margin-bottom: 30px;
+			.benefit-block {
+				.our-benefits {
+					.benefit-detail {
+						border-bottom: 0;
+					}
+				}
+			}
+		}
+		.sale-product {
+			margin-bottom: 60px;
+			.sale-product_top {
+				h2 {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.customer-satisfied {
+			margin-bottom: 30px;
+		}
+		#tab {
+			margin-bottom: 30px;
+		}
+		.quick-banner {
+			margin-bottom: 30px;
+		}
+		#tab-so2 {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+@include desktop {
+	.home3-product-block {
+		margin:  30px 0 30px 0;
+		.deal-of-week_slide {
+			margin-bottom: 60px;
+			.week-deal_top {
+				h2 {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.sidebar-benefit {
+			margin-bottom: 30px;
+		}
+		.sale-product {
+			margin-bottom: 60px;
+			.sale-product_top {
+				h2 {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.customer-satisfied {
+			margin-bottom: 30px;
+		}
+		#tab {
+			margin-bottom: 30px;
+		}
+		.quick-banner {
+			margin-bottom: 30px;
+		}
+		#tab-so2 {
+			margin-bottom: 30px;
+		}
+	}
+}

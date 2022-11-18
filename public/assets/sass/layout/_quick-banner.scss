@@ -1,0 +1,136 @@
+/************************************
+	Quick banner
+*************************************/
+.quick-banner {
+	background: {
+		image: url(../images/homepage03/quick_banner_1_bg.jpg);
+		repeat: no-peat;
+		position: center;
+		size: cover;
+	}
+	padding: 40px 0;
+	@include animation;
+	.banner-text {
+		.discount-block {
+			h2 {
+				@include font-bold(62px, $pink, 1);
+				padding-right: 5px;
+			}
+			h3 {
+				@include font-bold(24px, $title, 1);
+				text-transform: uppercase;
+				span {
+					color: $pink;
+				}
+			}
+		}
+		p {
+			@include font-regular(16px, $regular, 24px);
+			margin-bottom: 15px;
+		}
+	}
+}
+/************************************
+	Quick banner 2
+*************************************/
+.quick-banner-2 {
+	background: {
+		image: url(../images/homepage03/quick_banner_2_bg.jpg);
+	}
+	.banner-text {
+		&.big {
+			.day {
+				font-size: 30px;
+				line-height: 36px;
+			}
+			.sale {
+				font-size: 30px;
+				line-height: 36px;
+			}
+			span {
+				display: inline-block;
+			}
+		}
+		.day {
+			@include font-regular(24px, $title, 1);
+			margin-bottom: 5px;
+			line-height: 28px;
+		}
+		.sale {
+			@include font-bold(24px, $title, 1);
+			margin-bottom: 15px;
+			line-height: 28px;
+			span {
+				color: $pink;
+			}
+		}
+	}
+}
+/************************************
+	Quick banner 3
+*************************************/
+.quick-banner-3 {
+	background: {
+		image: url(../images/homepage03/quick_banner_3_bg.jpg);
+	}
+	@extend .quick-banner-2;
+}
+/************************************
+	Quick banner block
+*************************************/
+.quick-banner_block {
+	margin: 30px 0 60px 0;
+	.quick-banner {
+		.bannner-img {
+			img {
+				max-height: 190px;
+			}
+		}
+	}
+}
+@include mobile {
+	.quick-banner {
+		.bannner-img {
+			margin-bottom: 30px;
+		}
+	}
+	.quick-banner_block {
+		display: none;
+	}
+}
+@include tablet {
+	.quick-banner {
+		.bannner-img {
+			margin-bottom: 30px;
+		}
+	}
+	.quick-banner_block {
+		.quick-banner_block {
+			.quick-banner {
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.quick-banner-2 {
+		margin-bottom: 30px;
+	}
+}
+@include small-desktop {
+	.quick-banner {
+		margin-bottom: 30px;
+	}
+	.quick-banner_block {
+		margin: 30px 0;
+	}
+}
+@include desktop {
+	.quick-banner {
+		.banner-text {
+			h3 {
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+}

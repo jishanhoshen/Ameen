@@ -1,0 +1,75 @@
+/************************************
+	Typography template
+*************************************/
+
+.title {
+	@include font-bold(44px, $title, 50px);
+	@include mobile {
+		font-size: 30px;
+	}
+	@include tablet {
+		font-size: 38px;
+	}
+	@include small-desktop {
+		font-size: 38px;
+	}
+	&.green-underline {
+		&:after {
+			content: "";
+			background-color: $green;
+			width: 80px;
+			height: 3px;
+			display: block;
+			margin: auto;
+			margin-top: 15px;
+		}
+	}
+	&.coffee-underline {
+		@extend .green-underline;
+		&:after {
+			background-color: $coffee;
+		}
+	}
+}
+.color-subtitle {
+	@include font-medium(16px, $green, 1);
+	text-transform: uppercase;
+	letter-spacing: 3.2px;
+	&.pink {
+		@include font-medium(16px, $pink, 1);
+	}
+	&.coffee {
+		@include font-medium(16px, $coffee, 1);
+	}
+}
+.color-type {
+	@include font-bold(12px, $green, 1);
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+	&.pink {
+		@include font-bold(12px, $pink, 1);
+	}
+	&.coffee {
+		@include font-bold(12px, $coffee, 1);
+	}
+}
+.title-bb {
+	@extend .title;
+	border-bottom: 1px solid $line;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    &.green-underline {
+		&:after {
+			content: "";
+			background-color: $green;
+			width: 80px;
+			height: 3px;
+			display: block;
+			margin: auto;
+			margin-top: 15px;
+		}
+	}
+}

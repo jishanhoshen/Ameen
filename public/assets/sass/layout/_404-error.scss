@@ -1,0 +1,32 @@
+/************************************
+	404 Error
+*************************************/
+.error-404 {
+	padding: 60px 0 80px 0;
+	h1 {
+		@include font-bold(48px, $title, 60px);
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+	p {
+		@include font-regular(16px, $title, 30px);
+		margin-bottom: 40px;
+	}
+	img {
+		width: 100%;
+	}
+}
+@include mobile {
+	.error-404 {
+		.normal-btn {
+			margin-bottom: 80px;
+		}
+	}
+}
+@include tablet {
+	.error-404 {
+		.normal-btn {
+			margin-bottom: 60px;
+		}
+	}
+}

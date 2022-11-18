@@ -1,0 +1,186 @@
+/************************************
+	Shop sidebar
+*************************************/
+.filter-sidebar--background {
+	background-color: rgba(0, 0, 0, 0.65);
+	position: fixed; 
+	top: 0;
+	left: 0;
+	z-index: 99;
+	height: 100vh;
+	width: 100vw;
+}
+#show-filter-sidebar {
+	display: inline-block;
+	h5 {
+		cursor: pointer;
+		@include link-bold(18px, $title, 1, $green);
+		i {
+			margin-right: 15px;
+		}
+	}
+}
+.shop-sidebar {
+	&.fixed {
+		background-color: $white;
+		position: fixed;
+		height: 100vh;
+		width: 80vw;
+		overflow-y: auto;
+		padding: 30px;
+		top: 0;
+		left: -100%;
+		z-index: 100;
+		transition: 0.3s ease;
+	}
+	#filter-sidebar--closebtn {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.shop-sidebar_department {
+		.department_top {
+			.title {
+				font-size: 24px;
+				&:after {
+
+				}
+			}
+		}
+		.department_bottom {
+			.department-link {
+				@include link-regular(16px, $title, 39px, $green);
+			}
+		}
+	}
+	.shop-sidebar_price-filter {
+		margin-bottom: 30px;
+		.price-filter_bottom {
+			.filter-group {
+				display: flex;
+				align-items: baseline;
+				justify-content: space-between;
+				margin-bottom: 20px;
+				#amount {
+					@include font-regular(16px, $title, 39px);
+					border: 0;
+					width: 100px;
+				}
+				button {
+					height: 34px;
+					width: 80px;
+					padding: 0;
+				}
+			}
+			.slider-bar {
+				height: 3px;
+				background-color: $line;
+				border: 0;
+			}
+			.range-bar {
+				background-color: $green;
+			}
+			.handle {
+				border-radius: 999px;
+				background-color: $green;
+				top: -5px;
+				height: 15px;
+				width: 15px;
+			}
+			.ui-state-active {
+				border: 0;
+			}
+		}
+	}
+	.shop-sidebar_color-filter {
+		margin-bottom: 30px;
+		.color-filter_bottom {
+			.color {
+				display: flex;
+				align-items: center;
+				margin-bottom: 15px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+				.visible-color {
+					display: inline-block;
+					height: 23px;
+					width: 23px;
+					border-radius: 999px;
+					margin-right: 15px;
+				}
+				a {
+					@include link-regular(16px, $title, 1, $title);
+					display: inline-block;
+				}
+			}
+		}
+	}
+	.shop-sidebar_size {
+		.size_bottom {
+			.size {
+				display: flex;
+				align-items: center;
+				margin-bottom: 15px;
+				input {
+					margin-right: 15px;
+					height: 15px;
+					width: 15px;
+				}
+				label {
+					@include font-regular(16px, $title, 1);
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.shop-sidebar_tag {
+		.tag_bottom {
+			.tag-btn {
+				margin: 0 8px 8px 0;
+			}
+		}
+	}
+}
+
+@include mobile {
+	.shop-sidebar {
+		margin-bottom: 30px;
+		.mini-tab-title {
+			.title {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+@include tablet {
+	.shop-sidebar {
+		margin-bottom: 30px;
+		.mini-tab-title {
+			.title {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+@include small-desktop {
+	.shop-sidebar {
+		margin-bottom: 30px;
+		&.fixed {
+			width: 50vw;
+		}
+		.mini-tab-title {
+			.title {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+@include desktop {
+	.shop-sidebar {
+		margin-bottom: 30px;
+		&.fixed {
+			width: 50vw;
+		}
+	}
+}

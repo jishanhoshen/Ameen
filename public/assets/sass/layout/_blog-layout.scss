@@ -1,0 +1,391 @@
+/************************************
+	Blog layout
+*************************************/
+.blog-layout {
+	margin-bottom: 60px;
+	#show-filter-sidebar {
+		margin-bottom: 30px;
+	}
+	.blog-pagination {
+		ul {
+			margin-bottom: 0;
+			li {
+				display: inline-block;
+				.no-round-btn {
+					height: 40px;
+					width: 40px;
+					padding: 0;
+					&.active {
+						background-color: $green;
+						color: $white;
+						border: 1px solid $green;
+					}
+				}
+			}
+		}
+	}
+	.blog-loadmore {
+		text-align: center;
+		button {
+			@include button($white,$title,13px,999px,2px,$green,15px 30px,$green,$white,$green);
+			i {
+				margin-right: 10px;
+			}
+		}
+	}
+	.blog-img {
+		a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			img {
+				width: 100%;
+			}
+		}
+	}
+	.blog-tag {
+		@include font-bold(12px, $white, 1);
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 8px 20px;
+		display: inline-block;
+		background-color: $green;
+		border-radius: 2px;
+		margin-bottom: 10px;
+	}
+	.blog-title {
+		@include link-bold(28px, $title, 38px, $title);
+		margin-bottom: 10px;
+	}
+	.blog-credit {
+		margin-bottom: 15px;
+		.credit {
+			@include font-regular(14px, $disable, 1);
+			display: inline-block;
+			&.date {
+				&:after {
+					content: "|";
+					padding: 0 15px;
+				}
+			}
+		}
+	}
+	.blog-describe {
+		@include font-regular(16px, $regular, 24px);
+		margin-bottom: 20px;
+	}
+	.blog-readmore {
+		@include link-bold(13px, $title, 1, $green);
+		text-transform: uppercase;
+		span {
+			color: $green;
+		}
+	}
+}
+/************************************
+	Blog list
+*************************************/
+.blog-list {
+	.blog-block {
+		margin-bottom: 35px;
+		padding-bottom: 35px;
+		border-bottom: 1px solid $line;
+		&:last-child {
+			border-bottom: 0;
+			padding-bottom: 0;
+			margin-bottom: 30px;
+		}
+		
+		.blog-text {
+			flex-grow: 1;	
+		}
+	}
+}
+/************************************
+	Blog grid
+*************************************/
+.blog-grid {
+	.blog-block {
+		margin-bottom: 40px;
+		.blog-img {
+			margin-bottom: 20px;
+		}
+	}
+}
+/************************************
+	Blog masonry
+*************************************/
+.blog-masonry {
+	column-count: 3;
+	column-gap: 30px;
+	.blog-block {
+		display: inline-block;
+		margin-bottom: 40px;
+		.blog-img {
+			margin-bottom: 20px;
+		}
+		&:nth-child(2n) {
+			margin-bottom: 0;
+		}
+	}
+}
+/************************************
+	Blog 1 column
+*************************************/
+.blog-grid_1col {
+	@extend .blog-grid;
+	.blog-block {
+		margin-bottom: 35px;
+		padding-bottom: 35px;
+		border-bottom: 1px solid $line;
+		.blog-title {
+			font-size: 36px;
+			line-height: 46px;
+			margin-bottom: 20px;
+		}
+		.blog-img {
+			position: relative;
+			.blog-tag {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+	}
+	.blog-pagination {
+		text-align: center;
+	}
+}
+/************************************
+	Blog detail
+*************************************/
+.blog-detail {
+	.blog-detail_block {
+		margin-bottom: 30px;
+		.blog-title {
+			font-size: 36px;
+			line-height: 48px;
+			margin-bottom: 10px;
+		}
+		.blog-img {
+			margin-bottom: 20px;
+			img {
+				width: 100%;
+			}
+		}
+		.blog-quote {
+			margin-bottom: 30px;
+			border-left: 3px solid $green;
+			padding-left: 20px;
+			q {
+				@include font-regular(18px, $title, 26px);
+				font-family: 'Cera Pro Regular Italic';
+				margin-bottom: 15px;
+			}
+			p {
+				@include font-regular(14px, $title, 1);
+				text-align: right;
+			}
+		}
+		.blog-describe {
+			line-height: 30px;
+		}
+		.blog-subtitle {
+			@include font-medium(24px, $title, 28px);
+			margin-bottom: 20px;
+		}
+	}
+	.blog-detail_footer {
+		padding-bottom: 30px;
+		border-bottom: 1px solid $line;
+		margin-bottom: 15px;
+		.blog-sidebar_tags {
+			a {
+				margin-right: 10px;
+			}
+		}
+		.blog-detail_share {
+			h5 {
+				@include font-regular(16px, $title, 1);
+				display: inline-block;
+				margin-right: 15px;
+			}
+			span {
+				display: inline-block;
+				a {
+					@include link-regular(13px, $regular, 1, $green);
+					margin-right: 30px;
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+	.blog-detail_comment {
+		.comment-title {
+			@include font-regular(24px, $regular, 1);
+			margin-bottom: 40px;
+		}
+		.customer-reviews_block {
+			padding-bottom: 50px;
+			border-bottom: 1px solid $line;
+			margin-bottom: 50px;
+			.customer-review {
+				display: flex;
+				margin-bottom: 30px;
+				&:last-child {
+					margin-bottom: 0;
+					.customer-comment  {
+						button {
+							margin-bottom: 0;
+						}
+					}	
+				}
+				.customer-review_left {
+					.customer-review_img {
+						width: 80px;
+						height: 80px;
+						border-radius: 999px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						overflow: hidden;
+						margin-bottom: 15px;
+						background-color: $subcolor-7;
+						img {
+							max-width: 100%;
+							max-height: 100%;
+						}
+					}
+				}
+				.customer-comment  {
+					flex-grow: 1;
+					.comment-date {
+						@include font-regular(14px, $disable, 1);
+						letter-spacing: 2.4px;
+						text-transform: uppercase;
+						margin-bottom: 10px;
+					}
+					.customer-name {
+						@include font-bold(18px, $title, 1);
+						margin-bottom: 10px;
+					}
+					.customer-commented {
+						@include font-regular(16px, $regular, 24px);
+						margin-bottom: 15px;
+					}
+					button {
+						@include button($white,$title,13px,2px,1px,$disable,8px 20px,$green,$white,$green);
+						margin-bottom: 40px;
+					}
+					.replied-comment {
+						button {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+		.leave-reviews_block {
+			form {
+				input {
+					margin-bottom: 30px;
+				}
+				textarea {
+					margin-bottom: 50px;
+				}
+			}
+		}
+	}
+}
+
+@include mobile {
+	.blog-list {
+		.blog-block {
+			.blog-text {
+				.blog-title {
+					font-size: 18px;
+					line-height: 26px;
+				}
+				.blog-credit {
+					display: none;
+				}
+				.blog-describe {
+					display: none;
+				}
+				.blog-readmore {
+					display: none;
+				}
+			}
+		}
+	}
+	.blog-masonry {
+		column-count: 1;
+		.blog-block {
+			&:nth-child(2n) {
+				margin-bottom: 40px;
+			}
+		}
+	}
+	.blog-detail {
+		.blog-detail_footer {
+			.blog-sidebar_tags {
+				margin-bottom: 15px;
+			}
+		}
+		.blog-detail_comment {
+			.customer-reviews_block {
+				.customer-review {
+					.customer-comment  {
+						.replied-comment {
+							border-left: 3px solid $green;
+							padding-left: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include tablet {
+	.blog-list {
+		.blog-block {
+			.blog-text {
+				.blog-title {
+					font-size: 20px;
+					line-height: 28px;
+				}
+				.blog-credit {
+					display: none;
+				}
+				.blog-describe {
+					display: none;
+				}
+				.blog-readmore {
+					display: none;
+				}
+			}
+		}
+	}
+	.blog-masonry {
+		column-count: 1;
+		.blog-block {
+			&:nth-child(2n) {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}
+
+@include small-desktop{
+	.blog-masonry {
+		column-count: 2;
+		.blog-block {
+			&:nth-child(2n) {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}

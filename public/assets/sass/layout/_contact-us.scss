@@ -1,0 +1,72 @@
+/************************************
+	Contact us
+*************************************/
+.contact-us {
+	margin-bottom: 60px;
+	.feature.map {
+		height:600px;
+		iframe {
+			height:100%;
+			width:100%;
+			border:0;
+			filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+			filter: gray; /* IE6-9 */
+			-webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+			-webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+		}
+	}
+	.contact-method {
+		padding: 90px 0 60px 0;
+		.method-block {
+			text-align: center;
+			i {
+				font-size: 40px;
+				color: $green;
+				display: block;
+				margin-bottom: 35px;
+			}
+			.method-block_text {
+				p {
+					@include font-regular(18px, $title, 28px);
+					span {
+						color: $disable;
+					}
+				}
+			}
+		}
+	}
+	.leave-message {
+		text-align: center;
+		.title {
+			font-size: 36px;
+			margin-bottom: 15px;
+		}
+		p {
+			@include font-regular(16px, $title, 24px);
+			margin-bottom: 40px;
+		}
+		form {
+			input {
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+@include mobile {
+	.contact-us {
+		.contact-method {
+			.method-block {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}
+@include  tablet {
+	.contact-us {
+		.contact-method {
+			.method-block {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}

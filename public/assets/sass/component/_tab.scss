@@ -1,0 +1,36 @@
+/************************************
+	Tab template
+*************************************/
+.tab-control {
+	text-align: center;
+	overflow-x: auto;
+	white-space: nowrap;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	li {
+		display: inline-block;
+		padding: 0 15px;
+		&:first-child {
+			padding-left: 0;
+		}
+		&:last-child {
+			padding-right: 0;
+		}
+		a {
+			@include link-medium(18px, $disable, 1, $disable);
+			position: relative;
+			&.active {
+				color: $green;
+				&:after {
+					content: "";
+					position: absolute;
+					height: 4px;
+					width: 100%;
+					display: block;
+					background-color: $green;
+					bottom: -10px;
+				}
+			}
+		}
+	}
+}

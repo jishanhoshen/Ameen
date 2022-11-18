@@ -1,0 +1,130 @@
+/************************************
+	Delevery process
+*************************************/
+.delivery-process {
+	position: relative;
+	.delivery-process_holder {
+		margin-bottom: 60px;
+		background: {
+			image: url(../images/homepage04/parallax-home4.jpg);
+			repeat: no-repeat;
+			size: cover;
+			attachment: fixed;
+		}
+		padding: 120px 0;
+		.delivery-process_wrapper {
+			h1 {
+				margin-bottom: 95px;	
+			}
+			.delivery-process_block {
+				.process {
+					.process-icon {
+						display: inline-block;
+						position: relative;
+						margin-bottom: 20px;
+						&:after {
+							content: "";
+							background: {
+								image: url(../images/homepage04/step_icon.png);
+								repeat: no-repeat;
+							}
+							width: 190px;
+							height: 35px;
+							display: block;
+							position: absolute;
+							left: 100%;
+							top: 0;
+						}
+						&.clear {
+							&:after {
+								display: none;
+							}
+						}
+					}
+					.process-text {
+						h5 {
+							@include font-bold(18px, $coffee, 1);
+							margin-bottom: 15px;
+						}
+						p {
+							@include font-regular(18px, $white, 1);
+						}
+					}
+				}
+			}
+		}
+	}
+	.benefit-block {
+		width: 100%;
+		top: -60px;
+		left: 0;
+		position: absolute;
+	}
+	
+}
+@include mobile {
+	.delivery-process {
+		.benefit-block {
+			position: unset;
+			margin-bottom: 30px;
+		}
+		.delivery-process_holder {
+			padding: 60px 0;
+			.delivery-process_wrapper {
+				h1 {
+					margin-bottom: 50px;	
+				}
+				.delivery-process_block {
+					.col-6.col-md-3 {
+						&:nth-child(n+3) {
+							.process {
+								margin-bottom: 0;
+							}
+						}
+					}
+					.process {
+						margin-bottom: 30px;
+						.process-icon {
+							&:after {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@include tablet {
+	.delivery-process {
+		.benefit-block {
+			position: unset;
+			margin-bottom: 30px;
+		}
+		.delivery-process_holder {
+			padding: 60px 0;
+			.delivery-process_wrapper {
+				h1 {
+					margin-bottom: 50px;	
+				}
+				.delivery-process_block {
+					.col-6.col-md-3 {
+						&:nth-child(n+3) {
+							.process {
+								margin-bottom: 0;
+							}
+						}
+					}
+					.process {
+						margin-bottom: 50px;
+						.process-icon {
+							&:after {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

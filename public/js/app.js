@@ -5302,9 +5302,168 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/App.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/App.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _components_Header_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Header.vue */ "./resources/js/components/Header.vue");
+/* harmony import */ var _components_Slider_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Slider.vue */ "./resources/js/components/Slider.vue");
+/* harmony import */ var _components_Category_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Category.vue */ "./resources/js/components/Category.vue");
+/* harmony import */ var _components_Feature_Products_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Feature-Products.vue */ "./resources/js/components/Feature-Products.vue");
+/* harmony import */ var _components_Banner_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Banner.vue */ "./resources/js/components/Banner.vue");
+/* harmony import */ var _components_Empty_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Empty.vue */ "./resources/js/components/Empty.vue");
+/* harmony import */ var _components_Footer_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Footer.vue */ "./resources/js/components/Footer.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {
+    Header: _components_Header_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    Slider: _components_Slider_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    Category: _components_Category_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    FeatureProducts: _components_Feature_Products_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    Banner: _components_Banner_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+    Empty: _components_Empty_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+    Footer: _components_Footer_vue__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Category.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Category.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Empty.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Empty.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Feature-Products.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Feature-Products.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -5329,12 +5488,2280 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
-});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Header.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Header.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Slider.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Slider.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
 
@@ -5364,7 +7791,7 @@ window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', (__webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]));
+Vue.component('App', (__webpack_require__(/*! ./App.vue */ "./resources/js/App.vue")["default"]));
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -5373,7 +7800,7 @@ Vue.component('example-component', (__webpack_require__(/*! ./components/Example
  */
 
 var app = new Vue({
-  el: '#app'
+  el: '#main'
 });
 
 /***/ }),
@@ -28075,10 +30502,10 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue":
-/*!******************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue ***!
-  \******************************************************/
+/***/ "./resources/js/App.vue":
+/*!******************************!*\
+  !*** ./resources/js/App.vue ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -28086,9 +30513,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
-/* harmony import */ var _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _App_vue_vue_type_template_id_f348271a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue?vue&type=template&id=f348271a& */ "./resources/js/App.vue?vue&type=template&id=f348271a&");
+/* harmony import */ var _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue?vue&type=script&lang=js& */ "./resources/js/App.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -28097,9 +30524,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.render,
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _App_vue_vue_type_template_id_f348271a___WEBPACK_IMPORTED_MODULE_0__.render,
+  _App_vue_vue_type_template_id_f348271a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -28109,14 +30536,351 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/ExampleComponent.vue"
+component.options.__file = "resources/js/App.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
+/***/ "./resources/js/components/Banner.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Banner.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Banner_vue_vue_type_template_id_3d01b757___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Banner.vue?vue&type=template&id=3d01b757& */ "./resources/js/components/Banner.vue?vue&type=template&id=3d01b757&");
+/* harmony import */ var _Banner_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banner.vue?vue&type=script&lang=js& */ "./resources/js/components/Banner.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Banner_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Banner_vue_vue_type_template_id_3d01b757___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Banner_vue_vue_type_template_id_3d01b757___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Banner.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Category.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/components/Category.vue ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Category_vue_vue_type_template_id_33972369___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Category.vue?vue&type=template&id=33972369& */ "./resources/js/components/Category.vue?vue&type=template&id=33972369&");
+/* harmony import */ var _Category_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Category.vue?vue&type=script&lang=js& */ "./resources/js/components/Category.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Category_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Category_vue_vue_type_template_id_33972369___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Category_vue_vue_type_template_id_33972369___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Category.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Empty.vue":
+/*!*******************************************!*\
+  !*** ./resources/js/components/Empty.vue ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Empty_vue_vue_type_template_id_7db38f72___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Empty.vue?vue&type=template&id=7db38f72& */ "./resources/js/components/Empty.vue?vue&type=template&id=7db38f72&");
+/* harmony import */ var _Empty_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Empty.vue?vue&type=script&lang=js& */ "./resources/js/components/Empty.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Empty_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Empty_vue_vue_type_template_id_7db38f72___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Empty_vue_vue_type_template_id_7db38f72___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Empty.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Feature-Products.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/Feature-Products.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Feature_Products_vue_vue_type_template_id_24400f66___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Feature-Products.vue?vue&type=template&id=24400f66& */ "./resources/js/components/Feature-Products.vue?vue&type=template&id=24400f66&");
+/* harmony import */ var _Feature_Products_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Feature-Products.vue?vue&type=script&lang=js& */ "./resources/js/components/Feature-Products.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Feature_Products_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Feature_Products_vue_vue_type_template_id_24400f66___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Feature_Products_vue_vue_type_template_id_24400f66___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Feature-Products.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Footer.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Footer.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer.vue?vue&type=template&id=61a7c374& */ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&");
+/* harmony import */ var _Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.vue?vue&type=script&lang=js& */ "./resources/js/components/Footer.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Footer.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Header.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Header.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Header.vue?vue&type=template&id=1f42fb90& */ "./resources/js/components/Header.vue?vue&type=template&id=1f42fb90&");
+/* harmony import */ var _Header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.vue?vue&type=script&lang=js& */ "./resources/js/components/Header.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Header.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Slider.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Slider.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Slider_vue_vue_type_template_id_872262e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Slider.vue?vue&type=template&id=872262e8& */ "./resources/js/components/Slider.vue?vue&type=template&id=872262e8&");
+/* harmony import */ var _Slider_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Slider.vue?vue&type=script&lang=js& */ "./resources/js/components/Slider.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Slider_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Slider_vue_vue_type_template_id_872262e8___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Slider_vue_vue_type_template_id_872262e8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Slider.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/App.vue?vue&type=script&lang=js&":
+/*!*******************************************************!*\
+  !*** ./resources/js/App.vue?vue&type=script&lang=js& ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/App.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Banner.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/Banner.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Banner_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Banner.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Banner_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Category.vue?vue&type=script&lang=js&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/Category.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Category_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Category.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Category.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Category_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Empty.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/Empty.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Empty.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Empty.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Feature-Products.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
+  !*** ./resources/js/components/Feature-Products.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -28125,31 +30889,554 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Feature_Products_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Feature-Products.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Feature-Products.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Feature_Products_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
+/***/ "./resources/js/components/Footer.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/Footer.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Footer.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Header.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/Header.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Header.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Header.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Slider.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/Slider.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Slider_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Slider.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Slider.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Slider_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/App.vue?vue&type=template&id=f348271a&":
+/*!*************************************************************!*\
+  !*** ./resources/js/App.vue?vue&type=template&id=f348271a& ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_f348271a___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_f348271a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_f348271a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=f348271a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/App.vue?vue&type=template&id=f348271a&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Banner.vue?vue&type=template&id=3d01b757&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Banner.vue?vue&type=template&id=3d01b757& ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banner_vue_vue_type_template_id_3d01b757___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banner_vue_vue_type_template_id_3d01b757___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Banner_vue_vue_type_template_id_3d01b757___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Banner.vue?vue&type=template&id=3d01b757& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=template&id=3d01b757&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Category.vue?vue&type=template&id=33972369&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/Category.vue?vue&type=template&id=33972369& ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Category_vue_vue_type_template_id_33972369___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Category_vue_vue_type_template_id_33972369___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Category_vue_vue_type_template_id_33972369___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Category.vue?vue&type=template&id=33972369& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Category.vue?vue&type=template&id=33972369&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Empty.vue?vue&type=template&id=7db38f72&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/Empty.vue?vue&type=template&id=7db38f72& ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_template_id_7db38f72___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_template_id_7db38f72___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Empty_vue_vue_type_template_id_7db38f72___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Empty.vue?vue&type=template&id=7db38f72& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Empty.vue?vue&type=template&id=7db38f72&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Feature-Products.vue?vue&type=template&id=24400f66&":
 /*!*************************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
+  !*** ./resources/js/components/Feature-Products.vue?vue&type=template&id=24400f66& ***!
   \*************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Feature_Products_vue_vue_type_template_id_24400f66___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Feature_Products_vue_vue_type_template_id_24400f66___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Feature_Products_vue_vue_type_template_id_24400f66___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Feature-Products.vue?vue&type=template&id=24400f66& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Feature-Products.vue?vue&type=template&id=24400f66&");
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
+/***/ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Footer.vue?vue&type=template&id=61a7c374& ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Footer.vue?vue&type=template&id=61a7c374& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Header.vue?vue&type=template&id=1f42fb90&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Header.vue?vue&type=template&id=1f42fb90& ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Header_vue_vue_type_template_id_1f42fb90___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Header.vue?vue&type=template&id=1f42fb90& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Header.vue?vue&type=template&id=1f42fb90&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Slider.vue?vue&type=template&id=872262e8&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Slider.vue?vue&type=template&id=872262e8& ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Slider_vue_vue_type_template_id_872262e8___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Slider_vue_vue_type_template_id_872262e8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Slider_vue_vue_type_template_id_872262e8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Slider.vue?vue&type=template&id=872262e8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Slider.vue?vue&type=template&id=872262e8&");
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/App.vue?vue&type=template&id=f348271a&":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/App.vue?vue&type=template&id=f348271a& ***!
+  \****************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", [_c("Header")], 1),
+    _vm._v(" "),
+    _c("div", [_c("Slider")], 1),
+    _vm._v(" "),
+    _c("div", [_c("Category")], 1),
+    _vm._v(" "),
+    _c("div", [_c("FeatureProducts")], 1),
+    _vm._v(" "),
+    _c("div", [_c("Banner")], 1),
+    _vm._v(" "),
+    _c("div", [_c("Footer")], 1),
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=template&id=3d01b757&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=template&id=3d01b757& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "banner" }, [
+      _c("div", { staticClass: "full-fluid" }, [
+        _c("div", { staticClass: "banner-block" }, [
+          _c("div", { staticClass: "row no-gutters" }, [
+            _c("div", { staticClass: "col-12 col-lg-3" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "banner-block_detail",
+                  staticStyle: {
+                    "background-image":
+                      "url('assets/images/homepage01/banner_1.png')",
+                  },
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/homepage01/banner_img_1.png",
+                      alt: "",
+                    },
+                  }),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "banner-btn normal-btn",
+                      attrs: { href: "shop_grid+list_3col.html" },
+                    },
+                    [_vm._v("Shop now")]
+                  ),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 col-lg-6" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "banner-block_detail",
+                  staticStyle: {
+                    "background-image":
+                      "url('assets/images/homepage01/banner_2.png')",
+                  },
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/homepage01/banner_img_2.png",
+                      alt: "",
+                    },
+                  }),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "banner-btn normal-btn",
+                      attrs: { href: "shop_grid+list_3col.html" },
+                    },
+                    [_vm._v("Shop now")]
+                  ),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 col-lg-3" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "banner-block_detail",
+                  staticStyle: {
+                    "background-image":
+                      "url('assets/images/homepage01/banner_3.png')",
+                  },
+                },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/homepage01/banner_img_3.png",
+                      alt: "",
+                    },
+                  }),
+                  _c(
+                    "a",
+                    {
+                      staticClass: "banner-btn normal-btn",
+                      attrs: { href: "shop_grid+list_3col.html" },
+                    },
+                    [_vm._v("Shop now")]
+                  ),
+                ]
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Category.vue?vue&type=template&id=33972369&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Category.vue?vue&type=template&id=33972369& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "items-category" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12 col-sm-6 col-md-3" }, [
+            _c(
+              "a",
+              {
+                staticClass:
+                  "product-item d-flex flex-column align-items-center justify-content-center",
+                staticStyle: {
+                  "background-image":
+                    "url(assets/images/homepage01/item_category_1.png)",
+                },
+                attrs: { href: "shop_grid+list_3col.html" },
+              },
+              [
+                _c("div", { staticClass: "categories-img" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/homepage01/item_img_1.png",
+                      alt: "",
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Fresh Fruit")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("4 Items")]),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 col-sm-6 col-md-3" }, [
+            _c(
+              "a",
+              {
+                staticClass:
+                  "product-item d-flex flex-column align-items-center justify-content-center",
+                staticStyle: {
+                  "background-image":
+                    "url(assets/images/homepage01/item_category_2.png)",
+                },
+                attrs: { href: "shop_grid+list_3col.html" },
+              },
+              [
+                _c("div", { staticClass: "categories-img" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/homepage01/item_img_2.png",
+                      alt: "",
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Fresh Fruit")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("4 Items")]),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 col-sm-6 col-md-3" }, [
+            _c(
+              "a",
+              {
+                staticClass:
+                  "product-item d-flex flex-column align-items-center justify-content-center",
+                staticStyle: {
+                  "background-image":
+                    "url(assets/images/homepage01/item_category_3.png)",
+                },
+                attrs: { href: "shop_grid+list_3col.html" },
+              },
+              [
+                _c("div", { staticClass: "categories-img" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/homepage01/item_img_3.png",
+                      alt: "",
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Fresh Fruit")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("4 Items")]),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12 col-sm-6 col-md-3" }, [
+            _c(
+              "a",
+              {
+                staticClass:
+                  "product-item d-flex flex-column align-items-center justify-content-center",
+                staticStyle: {
+                  "background-image":
+                    "url(assets/images/homepage01/item_category_4.png)",
+                },
+                attrs: { href: "shop_grid+list_3col.html" },
+              },
+              [
+                _c("div", { staticClass: "categories-img" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "assets/images/homepage01/item_img_4.png",
+                      alt: "",
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Fresh Fruit")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("4 Items")]),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Empty.vue?vue&type=template&id=7db38f72&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Empty.vue?vue&type=template&id=7db38f72& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticStyle: {
+          "text-align": "center",
+          margin: "200px auto",
+          color: "#a3a3a3",
+        },
+      },
+      [_c("h2", [_vm._v("Empty")])]
+    )
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Feature-Products.vue?vue&type=template&id=24400f66&":
 /*!****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Feature-Products.vue?vue&type=template&id=24400f66& ***!
   \****************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -28170,18 +31457,4340 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component"),
+    return _c("div", { staticClass: "feature-products" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12 text-center" }, [
+            _c("h1", { staticClass: "title mx-auto" }, [
+              _vm._v("Featured Product"),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-12" }, [
+            _c("div", { attrs: { id: "tab" } }, [
+              _c("ul", { staticClass: "tab-control" }, [
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "active", attrs: { href: "#tab-1" } },
+                    [_vm._v("All")]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "#tab-2" } }, [_vm._v("Oranges")]),
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "#tab-3" } }, [
+                    _vm._v("Fresh Meat"),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "#tab-4" } }, [
+                    _vm._v("Vegetables"),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "#tab-5" } }, [_vm._v("Fastfood")]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { attrs: { id: "tab-1" } }, [
+                _c("div", { staticClass: "row no-gutters-sm" }, [
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product01.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product02.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product03.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product04.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product05.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product06.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product07.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product08.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { attrs: { id: "tab-2" } }, [
+                _c("div", { staticClass: "row no-gutters-sm" }, [
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product04.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product05.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product02.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product01.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product05.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product08.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product04.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product06.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { attrs: { id: "tab-3" } }, [
+                _c("div", { staticClass: "row no-gutters-sm" }, [
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product03.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product02.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product05.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product04.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product01.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product06.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product08.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product07.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { attrs: { id: "tab-4" } }, [
+                _c("div", { staticClass: "row no-gutters-sm" }, [
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product01.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product02.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product03.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product04.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product05.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product06.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product07.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product08.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("div", { attrs: { id: "tab-5" } }, [
+                _c("div", { staticClass: "row no-gutters-sm" }, [
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product04.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product05.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product02.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product01.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product05.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product08.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product04.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v("Apple"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $30.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$45.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-6 col-md-4 col-lg-3" }, [
+                    _c("div", { staticClass: "product" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "product-img",
+                          attrs: { href: "shop_detail.html" },
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/product/product06.png",
+                              alt: "",
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "product-type" }, [
+                        _vm._v("Oranges"),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-name" }, [
+                        _vm._v(
+                          "\n                                        Pure Pineapple\n                                    "
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("h3", { staticClass: "product-price" }, [
+                        _vm._v(
+                          "\n                                        $14.00\n                                        "
+                        ),
+                        _c("del", [_vm._v("$35.00")]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "product-select" }, [
+                        _c(
+                          "button",
+                          { staticClass: "add-to-wishlist round-icon-btn" },
+                          [_c("i", { staticClass: "icon_heart_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-cart round-icon-btn" },
+                          [_c("i", { staticClass: "icon_bag_alt" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "add-to-compare round-icon-btn" },
+                          [_c("i", { staticClass: "fas fa-random" })]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "button",
+                          { staticClass: "quickview round-icon-btn" },
+                          [_c("i", { staticClass: "far fa-eye" })]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("footer", [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-12 col-sm-12 col-md-4 text-sm-center text-md-left",
+            },
+            [
+              _c("div", { staticClass: "footer-logo" }, [
+                _c("img", {
+                  attrs: { src: "assets/images/logo.png", alt: "" },
+                }),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "footer-contact" }, [
+                _c("p", [_vm._v("Address: 60-49 Road 11378 New York")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("Phone: +65 11.188.888")]),
+                _vm._v(" "),
+                _c("p", [_vm._v("Email: info.deercreative@gmail.com")]),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "footer-social" }, [
+                _c(
+                  "a",
+                  { staticClass: "round-icon-btn", attrs: { href: "" } },
+                  [_c("i", { staticClass: "fab fa-facebook-f" })]
+                ),
+                _c(
+                  "a",
+                  { staticClass: "round-icon-btn", attrs: { href: "" } },
+                  [_c("i", { staticClass: "fab fa-twitter" })]
+                ),
+                _c(
+                  "a",
+                  { staticClass: "round-icon-btn", attrs: { href: "" } },
+                  [_c("i", { staticClass: "fab fa-invision" })]
+                ),
+                _c(
+                  "a",
+                  { staticClass: "round-icon-btn", attrs: { href: "" } },
+                  [_c("i", { staticClass: "fab fa-pinterest-p" })]
+                ),
+              ]),
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-8" }, [
+            _c("div", { staticClass: "row" }, [
+              _c(
+                "div",
+                { staticClass: "col-12 col-sm-4 text-sm-center text-md-left" },
+                [
+                  _c("div", { staticClass: "footer-quicklink" }, [
+                    _c("h5", [_vm._v("Infomation")]),
+                    _c("a", { attrs: { href: "about_us.html" } }, [
+                      _vm._v("About us"),
+                    ]),
+                    _c("a", { attrs: { href: "checkout.html" } }, [
+                      _vm._v("Check out"),
+                    ]),
+                    _c("a", { attrs: { href: "contact.html" } }, [
+                      _vm._v("Contact"),
+                    ]),
+                    _c("a", { attrs: { href: "about_us.html" } }, [
+                      _vm._v("Service"),
+                    ]),
+                  ]),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "col-12 col-sm-4 text-sm-center text-md-left" },
+                [
+                  _c("div", { staticClass: "footer-quicklink" }, [
+                    _c("h5", [_vm._v("My Account")]),
+                    _c("a", { attrs: { href: "login.html" } }, [
+                      _vm._v("My Account"),
+                    ]),
+                    _c("a", { attrs: { href: "contact.html" } }, [
+                      _vm._v("Contact"),
+                    ]),
+                    _c("a", { attrs: { href: "shop_cart.html" } }, [
+                      _vm._v("Shopping cart"),
+                    ]),
+                    _c("a", { attrs: { href: "shop_grid+list_3col.html" } }, [
+                      _vm._v("Shop"),
+                    ]),
+                  ]),
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "col-12 col-sm-4 text-sm-center text-md-left" },
+                [
+                  _c("div", { staticClass: "footer-quicklink" }, [
+                    _c("h5", [_vm._v("Quick Shop")]),
+                    _c("a", { attrs: { href: "about_us.html" } }, [
+                      _vm._v("About us"),
+                    ]),
+                    _c("a", { attrs: { href: "checkout.html" } }, [
+                      _vm._v("Check out"),
+                    ]),
+                    _c("a", { attrs: { href: "contact.html" } }, [
+                      _vm._v("Contact"),
+                    ]),
+                    _c("a", { attrs: { href: "about_us.html" } }, [
+                      _vm._v("Service"),
+                    ]),
+                  ]),
+                ]
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "newletter" }, [
+        _c("div", { staticClass: "container" }, [
+          _c(
+            "div",
+            { staticClass: "row justify-content-between align-items-center" },
+            [
+              _c("div", { staticClass: "col-12 col-md-7" }, [
+                _c(
+                  "div",
+                  { staticClass: "newletter_text text-center text-md-left" },
+                  [
+                    _c("h5", [_vm._v("Join Our Newsletter Now")]),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Get E-mail updates about our latest shop and special offers."
+                      ),
+                    ]),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-md-5" }, [
+                _c("div", { staticClass: "newletter_input" }, [
+                  _c("input", {
+                    staticClass: "round-input",
+                    attrs: { type: "text", placeholder: "Enter your email" },
+                  }),
+                  _vm._v(" "),
+                  _c("button", [_vm._v("Subcribe")]),
+                ]),
+              ]),
+            ]
+          ),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "footer-credit" }, [
+        _c("div", { staticClass: "container" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "footer-creadit_block d-flex flex-column flex-md-row justify-content-start justify-content-md-between align-items-baseline align-items-md-center",
+            },
+            [
+              _c("p", { staticClass: "author" }, [
+                _vm._v("Copyright © 2019 Ogami - All Rights Reserved."),
+              ]),
+              _c("img", {
+                staticClass: "payment-method",
+                attrs: { src: "assets/images/payment.png", alt: "" },
+              }),
+            ]
+          ),
+        ]),
+      ]),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Header.vue?vue&type=template&id=1f42fb90&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Header.vue?vue&type=template&id=1f42fb90& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("header", [
+      _c("div", { staticClass: "header-block d-flex align-items-center" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12 col-md-6" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "header-left d-flex flex-column flex-md-row align-items-center",
+                },
+                [
+                  _c("p", { staticClass: "d-flex align-items-center" }, [
+                    _c("i", { staticClass: "fas fa-envelope" }),
+                    _vm._v(
+                      "info.deercreative@gmail.com\r\n                        "
+                    ),
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "d-flex align-items-center" }, [
+                    _c("i", { staticClass: "fas fa-phone" }),
+                    _vm._v("+65 11.188.888\r\n                        "),
+                  ]),
+                ]
+              ),
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
+            _c("div", { staticClass: "col-12 col-md-6" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "header-right d-flex flex-column flex-md-row justify-content-md-end justify-content-center align-items-center",
+                },
+                [
+                  _c("div", { staticClass: "social-link d-flex" }, [
+                    _c("a", { attrs: { href: "" } }, [
+                      _c("i", { staticClass: "fab fa-facebook-f" }),
+                    ]),
+                    _c("a", { attrs: { href: "" } }, [
+                      _c("i", { staticClass: "fab fa-twitter" }),
+                    ]),
+                    _c("a", { attrs: { href: "" } }, [
+                      _c("i", { staticClass: "fab fa-invision" }),
+                    ]),
+                    _c("a", { attrs: { href: "" } }, [
+                      _c("i", { staticClass: "fab fa-pinterest-p" }),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "language" }, [
+                    _c("div", { staticClass: "selected-language" }, [
+                      _c("img", {
+                        attrs: {
+                          src: "assets/images/homepage01/usa.jpg",
+                          alt: "",
+                        },
+                      }),
+                      _vm._v("English"),
+                      _c("i", { staticClass: "arrow_carrot-down" }),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "list-language" }, [
+                        _c("li", [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/homepage01/usa.jpg",
+                              alt: "",
+                            },
+                          }),
+                          _vm._v(
+                            "English\r\n                                    "
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/homepage01/usa.jpg",
+                              alt: "",
+                            },
+                          }),
+                          _vm._v(
+                            "Spain\r\n                                    "
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("img", {
+                            attrs: {
+                              src: "assets/images/homepage01/usa.jpg",
+                              alt: "",
+                            },
+                          }),
+                          _vm._v(
+                            "Japan\r\n                                    "
+                          ),
+                        ]),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "login d-flex" }, [
+                    _c("a", { attrs: { href: "login.html" } }, [
+                      _c("i", { staticClass: "fas fa-user" }),
+                      _vm._v("Login"),
+                    ]),
+                  ]),
+                ]
               ),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("nav", { staticClass: "navigation d-flex align-items-center" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-2" }, [
+              _c("a", { staticClass: "logo", attrs: { href: "index.html" } }, [
+                _c("img", {
+                  attrs: { src: "assets/images/logo.png", alt: "" },
+                }),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-8" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "navgition-menu d-flex align-items-center justify-content-center",
+                },
+                [
+                  _c("ul", { staticClass: "mb-0" }, [
+                    _c("li", { staticClass: "toggleable" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "menu-item active",
+                          attrs: { href: "index.html" },
+                        },
+                        [_vm._v("Home")]
+                      ),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "sub-menu" }, [
+                        _c("li", [
+                          _c("a", { attrs: { href: "index.html" } }, [
+                            _vm._v("Homepage 1"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "homepage02.html" } }, [
+                            _vm._v("Homepage 2"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "homepage03.html" } }, [
+                            _vm._v("Homepage 3"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "homepage04.html" } }, [
+                            _vm._v("Homepage 4"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "homepage05.html" } }, [
+                            _vm._v("Homepage 5"),
+                          ]),
+                        ]),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "toggleable" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "menu-item",
+                          attrs: { href: "shop_grid+list_3col.html" },
+                        },
+                        [_vm._v("Shop")]
+                      ),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "sub-menu shop d-flex" }, [
+                        _c("div", { staticClass: "nav-column" }, [
+                          _c("h2", [_vm._v("Layout shop")]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c(
+                              "a",
+                              {
+                                attrs: {
+                                  href: "shop_grid+list_fullwidth.html",
+                                },
+                              },
+                              [_vm._v("Shop grid fullwidth")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c(
+                              "a",
+                              {
+                                attrs: {
+                                  href: "shop_grid+list_fullwidth.html",
+                                },
+                              },
+                              [_vm._v("Shop list fullwidth")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c(
+                              "a",
+                              { attrs: { href: "shop_grid+list_3col.html" } },
+                              [_vm._v("shop grid 3 column")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c(
+                              "a",
+                              { attrs: { href: "shop_grid+list_3col.html" } },
+                              [_vm._v("shop list 3 column")]
+                            ),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "nav-column" }, [
+                          _c("h2", [_vm._v("Detail shop")]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c(
+                              "a",
+                              { attrs: { href: "shop_detail_fullwidth.html" } },
+                              [_vm._v("shop detail fullwidth")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "shop_detail.html" } }, [
+                              _vm._v("shop detail sidebar"),
+                            ]),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "nav-column" }, [
+                          _c("h2", [_vm._v("Pages shop")]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "shop_checkout.html" } }, [
+                              _vm._v("checkout"),
+                            ]),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c(
+                              "a",
+                              { attrs: { href: "shop_order_complete.html" } },
+                              [_vm._v("order complete")]
+                            ),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "shop_wishlist.html" } }, [
+                              _vm._v("wishlist"),
+                            ]),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "shop_compare.html" } }, [
+                              _vm._v("compare"),
+                            ]),
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("a", { attrs: { href: "shop_cart.html" } }, [
+                              _vm._v("cart"),
+                            ]),
+                          ]),
+                        ]),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "toggleable" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "menu-item",
+                          attrs: { href: "blog_list_sidebar.html" },
+                        },
+                        [_vm._v("Blog")]
+                      ),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "sub-menu" }, [
+                        _c("li", [
+                          _c(
+                            "a",
+                            { attrs: { href: "blog_list_sidebar.html" } },
+                            [_vm._v("Blog List Sidebar")]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog_grid_2col.html" } }, [
+                            _vm._v("Blog Grid 2 column"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c(
+                            "a",
+                            { attrs: { href: "blog_grid_sidebar.html" } },
+                            [_vm._v("Blog Grid sidebar")]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog_masonry.html" } }, [
+                            _vm._v("Blog masonry"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "blog_grid_1col.html" } }, [
+                            _vm._v("Blog Grid 1 column sidebar"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c(
+                            "a",
+                            { attrs: { href: "blog_detail_sidebar.html" } },
+                            [_vm._v("Blog detail sidebar")]
+                          ),
+                        ]),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "toggleable" }, [
+                      _c(
+                        "a",
+                        { staticClass: "menu-item", attrs: { href: "#" } },
+                        [_vm._v("Pages")]
+                      ),
+                      _vm._v(" "),
+                      _c("ul", { staticClass: "sub-menu" }, [
+                        _c("li", [
+                          _c("a", { attrs: { href: "login.html" } }, [
+                            _vm._v("login"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "register.html" } }, [
+                            _vm._v("register"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "faq.html" } }, [
+                            _vm._v("FAQ"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "coming_soon.html" } }, [
+                            _vm._v("coming soon"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "contact_us.html" } }, [
+                            _vm._v("contact us"),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _c("a", { attrs: { href: "404_error.html" } }, [
+                            _vm._v("404 error"),
+                          ]),
+                        ]),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("li", { staticClass: "toggleable" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "menu-item",
+                          attrs: { href: "about_us.html" },
+                        },
+                        [_vm._v("About us")]
+                      ),
+                    ]),
+                  ]),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-2" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "product-function d-flex align-items-center justify-content-end",
+                },
+                [
+                  _c("div", { attrs: { id: "wishlist" } }, [
+                    _c("a", {
+                      staticClass: "function-icon icon_heart_alt",
+                      attrs: { href: "" },
+                    }),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { attrs: { id: "cart" } }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "function-icon icon_bag_alt",
+                        attrs: { href: "" },
+                      },
+                      [_c("span", [_vm._v("$150.00")])]
+                    ),
+                  ]),
+                ]
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { attrs: { id: "mobile-menu" } }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-3" }, [
+              _c(
+                "div",
+                { staticClass: "mobile-menu_block d-flex align-items-center" },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "mobile-menu--control",
+                      attrs: { href: "#" },
+                    },
+                    [_c("i", { staticClass: "fas fa-bars" })]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { attrs: { id: "ogami-mobile-menu" } }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "no-round-btn",
+                        attrs: { id: "mobile-menu--closebtn" },
+                      },
+                      [
+                        _vm._v(
+                          "\r\n                                Close menu\r\n                            "
+                        ),
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mobile-menu_items" }, [
+                      _c("ul", { staticClass: "mb-0 d-flex flex-column" }, [
+                        _c("li", { staticClass: "toggleable" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "menu-item active",
+                              attrs: { href: "index.html" },
+                            },
+                            [_vm._v("Home")]
+                          ),
+                          _c("span", { staticClass: "sub-menu--expander" }, [
+                            _c("i", { staticClass: "icon_plus" }),
+                          ]),
+                          _vm._v(" "),
+                          _c("ul", { staticClass: "sub-menu" }, [
+                            _c("li", [
+                              _c("a", { attrs: { href: "index.html" } }, [
+                                _vm._v("Homepage 1"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "homepage02.html" } }, [
+                                _vm._v("Homepage 2"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "homepage03.html" } }, [
+                                _vm._v("Homepage 3"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "homepage04.html" } }, [
+                                _vm._v("Homepage 4"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "homepage05.html" } }, [
+                                _vm._v("Homepage 5"),
+                              ]),
+                            ]),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", { staticClass: "toggleable" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "menu-item",
+                              attrs: { href: "shop_grid+list_3col.html" },
+                            },
+                            [_vm._v("Shop")]
+                          ),
+                          _c("span", { staticClass: "sub-menu--expander" }, [
+                            _c("i", { staticClass: "icon_plus" }),
+                          ]),
+                          _vm._v(" "),
+                          _c("ul", { staticClass: "sub-menu" }, [
+                            _c("li", [
+                              _c(
+                                "a",
+                                {
+                                  attrs: {
+                                    href: "shop_grid+list_fullwidth.html",
+                                  },
+                                },
+                                [_vm._v("Shop grid fullwidth")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                {
+                                  attrs: {
+                                    href: "shop_grid+list_fullwidth.html",
+                                  },
+                                },
+                                [_vm._v("Shop list fullwidth")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "shop_grid+list_3col.html" } },
+                                [_vm._v("shop grid 3 column")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "shop_grid+list_3col.html" } },
+                                [_vm._v("shop list 3 column")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "shop_detail.html" } }, [
+                                _vm._v("shop detail"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                {
+                                  attrs: { href: "shop_detail_fullwidth.html" },
+                                },
+                                [
+                                  _vm._v(
+                                    "shop detail\r\n                                                    fullwidth"
+                                  ),
+                                ]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "shop_checkout.html" } },
+                                [_vm._v("checkout")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "shop_order_complete.html" } },
+                                [_vm._v("order complete")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "shop_wishlist.html" } },
+                                [_vm._v("wishlist")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "shop_compare.html" } },
+                                [_vm._v("compare")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "shop_cart.html" } }, [
+                                _vm._v("cart"),
+                              ]),
+                            ]),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", { staticClass: "toggleable" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "menu-item",
+                              attrs: { href: "blog_list_sidebar.html" },
+                            },
+                            [_vm._v("Blog")]
+                          ),
+                          _c("span", { staticClass: "sub-menu--expander" }, [
+                            _c("i", { staticClass: "icon_plus" }),
+                          ]),
+                          _vm._v(" "),
+                          _c("ul", { staticClass: "sub-menu" }, [
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "blog_list_sidebar.html" } },
+                                [_vm._v("Blog List Sidebar")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "blog_grid_2col.html" } },
+                                [_vm._v("Blog Grid 2 column")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "blog_grid_sidebar.html" } },
+                                [_vm._v("Blog Grid sidebar")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "blog_masonry.html" } },
+                                [_vm._v("Blog masonry")]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "blog_grid_1col.html" } },
+                                [
+                                  _vm._v(
+                                    "Blog Grid 1 column\r\n                                                    sidebar"
+                                  ),
+                                ]
+                              ),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { attrs: { href: "blog_detail_sidebar.html" } },
+                                [_vm._v("Blog detail sidebar")]
+                              ),
+                            ]),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("li", { staticClass: "toggleable" }, [
+                          _c(
+                            "a",
+                            { staticClass: "menu-item", attrs: { href: "#" } },
+                            [_vm._v("Pages")]
+                          ),
+                          _c("span", { staticClass: "sub-menu--expander" }, [
+                            _c("i", { staticClass: "icon_plus" }),
+                          ]),
+                          _vm._v(" "),
+                          _c("ul", { staticClass: "sub-menu" }, [
+                            _c("li", [
+                              _c("a", { attrs: { href: "login.html" } }, [
+                                _vm._v("login"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "register.html" } }, [
+                                _vm._v("register"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "faq.html" } }, [
+                                _vm._v("FAQ"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "coming_soon.html" } }, [
+                                _vm._v("coming soon"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "about_us.html" } }, [
+                                _vm._v("about us"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "contact_us.html" } }, [
+                                _vm._v("contact us"),
+                              ]),
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("a", { attrs: { href: "404_error.html" } }, [
+                                _vm._v("404 error"),
+                              ]),
+                            ]),
+                          ]),
+                        ]),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mobile-login" }, [
+                      _c("h2", [_vm._v("My account")]),
+                      _vm._v(" "),
+                      _c("a", { attrs: { href: "login.html" } }, [
+                        _vm._v("Login"),
+                      ]),
+                      _c("a", { attrs: { href: "register.html" } }, [
+                        _vm._v("Register"),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mobile-social" }, [
+                      _c("a", { attrs: { href: "" } }, [
+                        _c("i", { staticClass: "fab fa-facebook-f" }),
+                      ]),
+                      _c("a", { attrs: { href: "" } }, [
+                        _c("i", { staticClass: "fab fa-twitter" }),
+                      ]),
+                      _c("a", { attrs: { href: "" } }, [
+                        _c("i", { staticClass: "fab fa-invision" }),
+                      ]),
+                      _c("a", { attrs: { href: "" } }, [
+                        _c("i", { staticClass: "fab fa-pinterest-p" }),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "ogamin-mobile-menu_bg" }),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-6" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "mobile-menu_logo text-center d-flex justify-content-center align-items-center",
+                },
+                [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", {
+                      attrs: { src: "assets/images/logo.png", alt: "" },
+                    }),
+                  ]),
+                ]
+              ),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-3" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "mobile-product_function d-flex align-items-center justify-content-end",
+                },
+                [
+                  _c("a", {
+                    staticClass: "function-icon icon_heart_alt",
+                    attrs: { href: "wishlist.html" },
+                  }),
+                  _c("a", {
+                    staticClass: "function-icon icon_bag_alt",
+                    attrs: { href: "shop_cart.html" },
+                  }),
+                ]
+              ),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "navigation-filter" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-12 col-md-4 col-lg-4 col-xl-3 order-2 order-md-1",
+              },
+              [
+                _c("div", { staticClass: "department-menu_block" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "department-menu d-flex justify-content-between align-items-center",
+                    },
+                    [
+                      _c("i", { staticClass: "fas fa-bars" }),
+                      _vm._v("All departments"),
+                      _c("span", [
+                        _c("i", { staticClass: "arrow_carrot-down" }),
+                      ]),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "department-dropdown-menu" }, [
+                    _c("ul", [
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-1" }),
+                            _vm._v("Fresh Meat"),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-2" }),
+                            _vm._v("Vegetables"),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-3" }),
+                            _vm._v(
+                              "Fruit & Nut\r\n                                        Gifts"
+                            ),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-4" }),
+                            _vm._v(
+                              "Fresh\r\n                                        Berries"
+                            ),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-5" }),
+                            _vm._v("Ocean Foods"),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-6" }),
+                            _vm._v(
+                              "Butter &\r\n                                        Eggs"
+                            ),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-7" }),
+                            _vm._v("Fastfood"),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-8" }),
+                            _vm._v("Fresh Onion"),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-9" }),
+                            _vm._v(
+                              "Papayaya &\r\n                                        Crisps"
+                            ),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-10" }),
+                            _vm._v("Oatmeal"),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          { attrs: { href: "shop_grid+list_3col.html" } },
+                          [
+                            _c("i", { staticClass: "icon-11" }),
+                            _vm._v(
+                              "Fresh\r\n                                        Bananas"
+                            ),
+                          ]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-12 col-md-8 col-lg-8 col-xl-9 order-1 order-md-2",
+              },
+              [
+                _c("div", { staticClass: "website-search" }, [
+                  _c("div", { staticClass: "row no-gutters" }, [
+                    _c(
+                      "div",
+                      { staticClass: "col-0 col-md-0 col-lg-4 col-xl-3" },
+                      [
+                        _c("div", { staticClass: "filter-search" }, [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "categories-select d-flex align-items-center justify-content-around",
+                            },
+                            [
+                              _c("span", [_vm._v("All Categories")]),
+                              _c("i", { staticClass: "arrow_carrot-down" }),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "categories-select_box" }, [
+                            _c("ul", [
+                              _c("li", [_vm._v("Fruit & Nut Gifts")]),
+                              _vm._v(" "),
+                              _c("li", [_vm._v("Fresh Berries")]),
+                              _vm._v(" "),
+                              _c("li", [_vm._v("Ocean Foods")]),
+                              _vm._v(" "),
+                              _c("li", [_vm._v("Butter & Eggs")]),
+                              _vm._v(" "),
+                              _c("li", [_vm._v("Ocean Foods")]),
+                            ]),
+                          ]),
+                        ]),
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "col-8 col-md-8 col-lg-5 col-xl-7" },
+                      [
+                        _c("div", { staticClass: "search-input" }, [
+                          _c("input", {
+                            staticClass: "no-round-input no-border",
+                            attrs: {
+                              type: "text",
+                              placeholder: "What do you need",
+                            },
+                          }),
+                        ]),
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "col-4 col-md-4 col-lg-3 col-xl-2" },
+                      [
+                        _c("button", { staticClass: "no-round-btn" }, [
+                          _vm._v("Search"),
+                        ]),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Slider.vue?vue&type=template&id=872262e8&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Slider.vue?vue&type=template&id=872262e8& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "slider" }, [
+      _c("div", { staticClass: "full-fluid" }, [
+        _c("div", { staticClass: "slider_wrapper" }, [
+          _c(
+            "div",
+            {
+              staticClass: "slider-block",
+              staticStyle: {
+                "background-image":
+                  "url('assets/images/homepage01/slider_background_1.png')",
+              },
+            },
+            [
+              _c("div", { staticClass: "slider-content" }, [
+                _c("div", { staticClass: "container" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "row align-items-center justify-content-center",
+                    },
+                    [
+                      _c("div", { staticClass: "col-12 col-md-5 col-xl-6" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "slider-text d-flex flex-column align-items-center align-items-md-start",
+                          },
+                          [
+                            _c(
+                              "h5",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".2s",
+                                },
+                              },
+                              [_vm._v("Fruit Fresh")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "h1",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".3s",
+                                },
+                              },
+                              [_vm._v("Orange Lemon")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "h3",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".4s",
+                                },
+                              },
+                              [
+                                _vm._v("$14.00"),
+                                _c("span", [_vm._v("/ pakage")]),
+                              ]
+                            ),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "normal-btn",
+                                attrs: {
+                                  href: "shop_grid+list_3col.html",
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".4s",
+                                },
+                              },
+                              [_vm._v("Shop now")]
+                            ),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-12 col-md-6" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "slider-img",
+                            attrs: {
+                              "data-animation": "zoomIn",
+                              "data-delay": ".1s",
+                            },
+                          },
+                          [
+                            _c("img", {
+                              attrs: {
+                                src: "assets/images/homepage01/slider_subbackground_1.png",
+                                alt: "",
+                              },
+                            }),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "prallax-img" }, [
+                              _c("div", { attrs: { id: "img-block" } }, [
+                                _c("img", {
+                                  staticClass: "img",
+                                  attrs: {
+                                    src: "assets/images/homepage01/slider_img_1.png",
+                                    alt: "",
+                                    "data-depth": "1",
+                                  },
+                                }),
+                              ]),
+                            ]),
+                          ]
+                        ),
+                      ]),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "slider-block",
+              staticStyle: {
+                "background-image":
+                  "url('assets/images/homepage01/slider_background_2.jpg')",
+              },
+            },
+            [
+              _c("div", { staticClass: "slider-content" }, [
+                _c("div", { staticClass: "container" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "row align-items-center justify-content-center",
+                    },
+                    [
+                      _c("div", { staticClass: "col-12 col-md-5 col-xl-6" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "slider-text d-flex flex-column align-items-center align-items-md-start",
+                          },
+                          [
+                            _c(
+                              "h5",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".2s",
+                                },
+                              },
+                              [_vm._v("Butter Egg")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "h1",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".3s",
+                                },
+                              },
+                              [_vm._v("Orange Lemon")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "h3",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".4s",
+                                },
+                              },
+                              [
+                                _vm._v("$14.00"),
+                                _c("span", [_vm._v("/ pakage")]),
+                              ]
+                            ),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "normal-btn",
+                                attrs: {
+                                  href: "shop_grid+list_3col.html",
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".4s",
+                                },
+                              },
+                              [_vm._v("Shop now")]
+                            ),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-12 col-md-6" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "slider-img",
+                            attrs: {
+                              "data-animation": "zoomIn",
+                              "data-delay": ".1s",
+                            },
+                          },
+                          [
+                            _c("img", {
+                              attrs: {
+                                src: "assets/images/homepage01/slider_subbackground_1.png",
+                                alt: "",
+                              },
+                            }),
+                            _c("img", {
+                              staticClass: "img",
+                              attrs: {
+                                src: "assets/images/homepage01/slider_img_2.png",
+                                alt: "",
+                              },
+                            }),
+                          ]
+                        ),
+                      ]),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "slider-block",
+              staticStyle: {
+                "background-image":
+                  "url('assets/images/homepage01/slider_background_1.png')",
+              },
+            },
+            [
+              _c("div", { staticClass: "slider-content" }, [
+                _c("div", { staticClass: "container" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "row align-items-center justify-content-center",
+                    },
+                    [
+                      _c("div", { staticClass: "col-12 col-md-5 col-xl-6" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "slider-text d-flex flex-column align-items-center align-items-md-start",
+                          },
+                          [
+                            _c(
+                              "h5",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".2s",
+                                },
+                              },
+                              [_vm._v("Fruit Fresh")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "h1",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".3s",
+                                },
+                              },
+                              [_vm._v("Orange Lemon")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "h3",
+                              {
+                                attrs: {
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".4s",
+                                },
+                              },
+                              [
+                                _vm._v("$14.00"),
+                                _c("span", [_vm._v("/ pakage")]),
+                              ]
+                            ),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "normal-btn",
+                                attrs: {
+                                  href: "shop_grid+list_3col.html",
+                                  "data-animation": "fadeInUp",
+                                  "data-delay": ".4s",
+                                },
+                              },
+                              [_vm._v("Shop now")]
+                            ),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-12 col-md-6" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "slider-img",
+                            attrs: {
+                              "data-animation": "zoomIn",
+                              "data-delay": ".1s",
+                            },
+                          },
+                          [
+                            _c("img", {
+                              attrs: {
+                                src: "assets/images/homepage01/slider_subbackground_1.png",
+                                alt: "",
+                              },
+                            }),
+                            _c("img", {
+                              staticClass: "img",
+                              attrs: {
+                                src: "assets/images/homepage01/slider_img_1.png",
+                                alt: "",
+                              },
+                            }),
+                          ]
+                        ),
+                      ]),
+                    ]
+                  ),
+                ]),
+              ]),
+            ]
+          ),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "benefit-block" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "our-benefits" }, [
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-12 col-md-4" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "benefit-detail d-flex flex-column align-items-center",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "benefit-img",
+                        attrs: {
+                          src: "assets/images/homepage01/benefit-icon1.png",
+                          alt: "",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "benefit-title" }, [
+                        _vm._v("Free Shipping"),
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "benefit-describle" }, [
+                        _vm._v("For all order over 99$"),
+                      ]),
+                    ]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-4" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "benefit-detail d-flex flex-column align-items-center",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "benefit-img",
+                        attrs: {
+                          src: "assets/images/homepage01/benefit-icon2.png",
+                          alt: "",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "benefit-title" }, [
+                        _vm._v("Delivery On Time"),
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "benefit-describle" }, [
+                        _vm._v("If good have prolems"),
+                      ]),
+                    ]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-12 col-md-4" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "benefit-detail boderless d-flex flex-column align-items-center",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "benefit-img",
+                        attrs: {
+                          src: "assets/images/homepage01/benefit-icon3.png",
+                          alt: "",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "benefit-title" }, [
+                        _vm._v("Secure Payment"),
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "benefit-describle" }, [
+                        _vm._v("100% secure payment"),
+                      ]),
+                    ]
+                  ),
+                ]),
+              ]),
             ]),
           ]),
         ]),

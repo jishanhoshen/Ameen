@@ -1,0 +1,94 @@
+@include mobile {
+	.sale-product {
+		.sale-product_bottom {
+			.col-12.col-sm-6.col-lg-4.col-lg-3.col-xxl-3.col-xxxl {
+				&:nth-child(n+7) {
+					display: none;
+				}
+			}
+		}
+	}
+	.home3-product-block {
+		#tab-so1 {
+			.best-seller_bottom {
+				.col-6.col-md-4 {
+					&:nth-child(n+3){
+						display: none;
+					}
+				}
+			}
+		}
+		#tab-so2 {
+			@extend #tab-so1;
+		}
+	}
+}
+@include tablet {
+	.home3-product-block {
+		#tab-so1 {
+			.best-seller_bottom {
+				.col-6.col-md-4 {
+					&:nth-child(n+3) {
+						display: none;
+					}
+				}
+			}
+		}
+		#tab-so2 {
+			.best-seller_bottom {
+				.col-6.col-md-4 {
+					&:nth-child(n+3) {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+@include small-desktop {
+	.feature-products.feature-products_v2 {
+		#tab {
+			.col-12.col-sm-6.col-md-4.col-lg-3.col-xxl-2 {
+				&:nth-child(n+7) {
+					display: none!important;
+				}
+			}
+		}
+	}
+
+}
+@include desktop {
+	.sale-product {
+		.sale-product_bottom {
+			.col-12.col-sm-6.col-lg-4.col-lg-3.col-xxl-3.col-xxxl {
+				&:nth-child(n+8) {
+					display: none;
+				}
+			}
+		}
+	}
+	.home3-product-block {
+		.sidebar-benefit {
+			.benefit-block {
+				.our-benefits.column {
+					.benefit-detail {
+						border-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+	
+}
+@include medium-desktop {
+	.sale-product {
+		.sale-product_bottom {
+			.col-12.col-sm-6.col-lg-4.col-lg-3.col-xxl-3.col-xxxl {
+				&:nth-child(n+8) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+

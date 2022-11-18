@@ -1,0 +1,56 @@
+/************************************
+	Button template
+*************************************/
+.normal-btn {
+	@include button($green,$white,13px,999px,2px,$green,15px 30px,$trans,$green,$green);
+	&.pink {
+		@include button($pink,$white,13px,999px,2px,$pink,15px 30px,$trans,$pink,$pink);
+	}
+	&.coffee {
+		@include button($coffee,$white,13px,999px,2px,$coffee,15px 30px,$trans,$coffee,$coffee);
+	}
+	&.black {
+		@include button($black,$white,13px,999px,2px,$black,15px 30px,$trans,$black,$black);
+	}
+	&.outline {
+		@include button($white,$green,13px,999px,2px,$green,15px 30px,$green,$white,$green);
+	}
+}
+.no-round-btn {
+	@include button($green,$white,14px,0,2px,$green,15px 30px,$trans,$green,$green);
+	&.black {
+		@include button($black,$white,14px,0,2px,$black,15px 30px,$trans,$black,$black);
+	}
+	&.pink {
+		@include button($pink,$white,14px,0,2px,$pink,15px 30px,$trans,$pink,$pink);
+	}
+	&.coffee {
+		@include button($coffee,$white,14px,0,2px,$coffee,15px 30px,$trans,$coffee,$coffee);
+	}
+	&.smooth {
+		@include button($subcolor-7,$title,14px,0,2px,$subcolor-7,15px 30px,$green,$white,$green);
+	}
+	&.black {
+		@include button($black,$white,13px,0px,2px,$black,15px 30px,$trans,$black,$black);
+	}
+}
+.slider-btn {
+	@include button($green,$white,14px,999px,2px,$green,10px,$trans,$green,$green);
+}
+.round-icon-btn {
+	@include button($subcolor-7,$title,14px,999px,0px,$white,0,$green,$white,$white);
+	&.pink {
+		@include button($subcolor-7,$title,14px,999px,0px,$white,0,$pink,$white,$white);
+	}
+	&.coffee {
+		@include button($subcolor-7,$title,14px,999px,0px,$white,0,$coffee,$white,$white);
+	}
+}
+.button-borderless {
+	@include button($trans,$title,18px,999px,0px,$trans,0,$trans,$green,$trans);
+}
+.tag-btn {
+	@include button($subcolor-7,$regular,16px,2px,1px,$line,10px,$trans,$title,$regular);
+	text-transform: none;
+	font-family: 'Cera Pro Regular';
+}

@@ -1,0 +1,47 @@
+/************************************
+	Introduce
+*************************************/
+.ogami-introduce {
+	.ogami-introduce_block {
+		padding: 60px 0 100px 0;
+		background: {
+			image: url('../images/homepage04/introduce_bg.png');
+			size: cover;
+			position: center;
+			repeat: no-repeat;
+		}
+		.introduce_img {
+			margin-bottom: 30px;
+			img {
+				max-width: 100%;
+			}
+		}
+		.introduce-info {
+			h1 {
+				margin-bottom: 30px;
+			}
+			p {
+				@include font-regular(16px, $regular, 26px);
+				margin-bottom: 30px;
+			}
+			.founder-confirm {
+				.founder_signature {
+					margin-bottom: 30px;
+					img {
+						max-width: 160px;
+					}
+				}
+				.founder_name {
+					h2 {
+						@include font-bold(22px, $title, 1);
+						margin-bottom: 10px;
+					}
+					h5 {
+						@include font-medium(12px, $coffee, 1);
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}

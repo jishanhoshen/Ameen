@@ -1,0 +1,131 @@
+/*
+	*****************************************************************
+	*	Theme Name: Ogami											
+	*	Author: DeerCreative 										
+	*	Author URL: https://themeforest.net/user/deercreative 		
+	*	Version: 1.0.0												
+	*****************************************************************
+*/
+/************************************
+	-------------------------[Table of contents]----------------------
+	This files contains the styling for the actual templates, this is the file you need to edit to change the look of the template.
+
+	This file contents are outlined below.
+	------------------------------------------------------------------
+
+	[Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+  	content / #[keyword to find]
+  	1. LAYOUT STYLE
+  		1.1. 404 Error
+  		1.2. About us
+  		1.3. Account
+  		1.4. Banner
+  		1.5. Blog layout
+  			1.5.1. Blog list
+  			1.5.2. Blog grid
+  			1.5.3. Blog masonry
+  			1.5.4. Blog 1 column
+  			1.5.5. Blog detail
+  		1.6. Coming soon
+  		1.7. Contact us
+  		1.8. Deal of the week
+			1.8.1. Deal of the week v2
+			1.8.2. Deal of the week v3
+			1.8.3. Deal of the week slide
+			1.8.4. Deal of the week parallax
+  		1.9. Feature Products
+  			1.9.1. Feature Products v2
+  		1.10. FAQ
+  		1.11. Footer
+  			1.10.1. Footer pink
+  			1.10.2. Footer coffee
+  		1.12. From the blog
+  		1.13. Header
+  			1.13.1. Header pink
+  			1.13.1  Header coffee
+  			1.13.1. Header coffee 2
+  		1.14. Introduce
+  		1.16. Item categories
+  		1.17. Partner
+  		1.18. Product block
+  			1.18.1. Home3 product block
+  			1.18.2. Home5 product block
+  		1.19. Quick banner
+  			1.19.1. Quick banner 2
+  			1.19.2. Quick banner 3
+  			1.19.2. Quick banner block
+  		1.20. Shopping cart
+  		1.21. Shop checkout
+  		1.22. Shop layout
+			1.22.1. Shop grid list
+			1.22.2. Shop detail
+			1.22.3. Shop detail full width
+  		1.23. Slider
+  			1.23.1. Slider v2
+  	2. COMPONENT
+  	 	2.1. Animation
+        2.2. Benefit
+        2.3. Blog sidebar
+        2.4. Breadcrumb
+        2.5. Button template
+        2.6. Input form template
+        2.7. Mini tab title
+        2.8. Mobile menu
+        2.9. Order step
+        2.10. Preload
+        2.11. Product
+          2.11.1. Product list view
+          2.11.2. Product full list view
+          2.11.3. Product grid view
+          2.11.4. Mini product
+        2.12. Quickview
+        2.13. Shop sidebar
+    		2.14. Tab template
+    		2.15. Typography template
+*************************************/
+@import 'base/typography';
+@import 'base/mixins';
+@import 'base/color';
+@import 'base/reset';
+@import 'base/responsive';
+@import 'component/button';
+@import 'component/typography';
+@import 'component/input-form';
+@import 'component/benefit';
+@import 'component/product';
+@import 'component/mobile-menu';
+@import 'component/mini-tab-title';
+@import 'component/tab';
+@import 'component/breadcrumb';
+@import 'component/shop-sidebar';
+@import 'component/blog-sidebar';
+@import 'component/order-step';
+@import 'component/animation';
+@import 'component/preload';
+@import 'component/quickview';
+@import 'layout/header';
+@import 'layout/slider';
+@import 'layout/items-category';
+@import 'layout/feature-products';
+@import 'layout/banner';
+@import 'layout/deal-of-week';
+@import 'layout/partner';
+@import 'layout/footer';
+@import 'layout/sale-product';
+@import 'layout/product-pretty';
+@import 'layout/product-block';
+@import 'layout/quick-banner';
+@import 'layout/introduce';
+@import 'layout/delivery-process';
+@import 'layout/from-blog';
+@import 'layout/shop-layout';
+@import 'layout/shop-cart';
+@import 'layout/shop-checkout';
+@import 'layout/shop-compare';
+@import 'layout/blog-layout';
+@import 'layout/account';
+@import 'layout/about-us';
+@import 'layout/faq';
+@import 'layout/coming-soon';
+@import 'layout/contact-us';
+@import 'layout/404-error';

@@ -1,0 +1,139 @@
+/************************************
+	Shopping cart
+*************************************/
+.shopping-cart {
+	margin-bottom: 60px;
+	.product-table {
+		.table {
+			border: 1px solid $line;
+			.product-clear {
+				button {
+					@include button($white,$title,13px,0,1px,$line,0,$green,$white,$green);
+					height: 30px;
+					width: 30px;
+				}
+			}
+			thead {
+				th {
+					@include font-bold(16px, $title, 1);
+					text-transform: uppercase;
+					display: table-cell;
+					text-align: center;
+					border-bottom: 1px solid $line;
+					vertical-align: middle;
+					border-top: 0;
+				}
+			}
+			tbody {
+				td {
+					text-align: center;
+					vertical-align: middle;
+					border-top: 0;
+				}
+				.product-iamge {
+					.img-wrapper {
+						height: 170px;
+						width: 170px;
+						background-color: #f8f8f8;
+						padding: 30px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						img {
+							max-height: 100%;
+							max-width: 100%;
+						}
+					}
+				}
+				.product-name {
+					@include font-bold(16px, $title, 1);
+					display: table-cell;
+				}
+				.product-price {
+					@extend .product-name;
+					color: $green;
+				}
+				.product-total {
+					@extend .product-price;
+				}
+				.product-quantity {
+					input {
+						height: 40px;
+						width: 60px;
+						border-radius: 5px;
+						padding: 0 10px;
+					}
+				}
+				
+			}
+		}
+	}
+	.coupon {
+		form {
+			input {
+				border-width: 0 0 1px 0;
+				width: auto;
+				margin-right: 15px;
+			}
+		}
+	}
+	.cart-total_block {
+		margin-top: 50px;
+		h2 {
+			@include font-bold(18px, $title, 1);
+			text-transform: uppercase;
+			margin-bottom: 30px;
+		}
+		.table {
+			border: 1px solid $line;
+			margin-bottom: 30px;
+			tbody {
+				th {
+					@include font-bold(16px, $regular, 1);
+					display: table-cell;
+					padding: 20px 10px;
+				}
+				td {
+					@include font-medium(16px, $title, 1);
+					display: table-cell;
+					padding: 20px 10px;
+					p {
+						@include font-regular(16px, $regular, 24px);
+					}
+				}
+			}
+		}
+		.checkout-method {
+			text-align: center;
+			button {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+			span {
+				@include font-regular(16px, $disable, 1);
+				margin-bottom: 20px;
+			}
+			a {
+				@include link-medium(16px, $disable, 1, $green);
+			}
+		}
+	}
+}
+@include mobile {
+	.coupon {
+		margin-bottom: 30px;
+		form {
+			input {
+				width: 100%;
+			}
+			button {
+				width: 100%;
+			}
+		}
+	}
+	.cart-update {
+		width: 100%;
+	}
+}
+@include tablet {
+}

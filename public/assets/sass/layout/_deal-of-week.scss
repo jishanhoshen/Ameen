@@ -1,0 +1,541 @@
+/************************************
+	Deal of the week
+*************************************/
+.deal-of-week {
+	margin-bottom: 60px;
+	h1 {
+		margin-bottom: 100px;
+	}
+	.featured-use {
+		display: flex;
+		margin-bottom: 40px;
+		align-items: center;
+		h5 {
+			@include font-bold(18px, $title, 24px);
+			margin-bottom: 12px;
+		}
+		p {
+			@include font-regular(16px, $regular, 30px);
+			line-height: 24px;
+		}
+		.featured-use_intro {
+			flex-grow: 1;
+		}
+	}
+	.week-product_img {
+		position: relative;
+		display: inline-block;
+		p {
+			text-align: center;
+			position: absolute;
+			border-radius: 999px;
+			height: 70px;
+			width: 70px;
+			background-color: $white;
+			padding: 20px 0;
+			bottom: 0;
+			right: 0;
+			box-shadow: 0px 5px 13px 0 rgba(53, 78, 84, 0.21);
+			@include font-regular(12px, $green, 1) 
+			span {
+				@include font-bold(18px, $green, 1) 
+			}
+		}
+	}
+	.featured-use_icon {
+		margin-left: 26px;
+		margin-right: 26px;
+		.icon-detail {
+			border-radius: 999px;
+			background-color: $subcolor-7;
+			height: 54px;
+			width: 54px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		img {
+			max-width: 24px;
+		}
+	}
+	#event-countdown {
+		margin-top: 30px;
+		.countdown-number {
+			@include font-medium(12px, $regular, 0.8) 
+			text-transform: uppercase;
+			margin: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			border: 2px solid $line;
+			border-radius: 10px;
+			height: 72px;
+			width: 60px;
+			padding: 5px;
+			span {
+				display: block;
+				@include font-bold(30px, $green, 0.8) 
+				// margin-bottom: 5px;
+			}
+		}
+	}
+}
+/************************************
+	Deal of the week v2
+*************************************/
+.deal-of-week_v2 {
+	padding: 60px 0;
+	margin: 80px 0;
+	background: {
+		image: url('../images/homepage02/dow_banner.jpg');
+		position: center;
+		size: cover;
+	}
+    .dow-info {
+    	h2 {
+			margin-bottom: 18px;
+		}
+		p {
+			@include font-regular(16px, $regular, 26px); 
+			margin-bottom: 20px;
+		}
+		#event-countdown {
+			margin-bottom: 30px;
+			.countdown-number {
+				@include font-medium(12px, $regular, 0.8);
+				text-transform: uppercase;
+				margin: 10px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				border-radius: 10px;
+				height: 72px;
+				width: 60px;
+				padding: 5px;
+				background-color: $white;
+				box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.1);
+				&:first-child {
+					margin-left: 0;
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+				span {
+					display: block;
+					@include font-bold(30px, $green, 0.8) 
+				}
+			}
+		}
+	}
+	.dow-img {
+		text-align: center;
+		img {
+			max-width: 450px;
+		}
+	}
+}
+/************************************
+	Deal of the week v3
+*************************************/
+.deal-of-week_v3 {
+	@extend .deal-of-week_v2;
+	padding: 0;
+	margin: 30px 0 60px 0;
+	background: {
+		image: unset;
+	}
+	.deal-of-week_block {
+		padding: 50px 0;
+		background-color: #fff3dd;
+		.dow-info {
+			h2 {
+				&:after {
+					width: 60px;
+					margin: 15px 0 0 0;
+				}
+			}
+			h3 {
+				@include font-bold(30px, $coffee, 1);
+				line-height: 48px;
+				margin-bottom: 5px;
+				span {
+					@include font-regular(18px, $regular, 1);
+					display: inline-block;
+				}
+			}
+			#event-countdown {
+				.countdown-number {
+					border-radius: 999px;
+					height: 80px;
+					width: 80px;
+					padding: 5px;
+					margin: 0 5px;
+					box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.1);
+				}
+				span {
+					color: $coffee;
+				}
+			}
+			
+		}
+	}
+}
+/************************************
+	Deal of the week slide
+*************************************/
+.deal-of-week_slide {
+	margin-bottom: 30px;
+	.week-deal_top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.week-deal_control {
+			.slick-arrow {
+				@include button($subcolor-7,$regular,11px,0,5px,$subcolor-7,2px,$pink,$white,$pink);
+				margin-right: 3px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.week-deal_bottom {
+		.deal-block  {
+			border: 2px solid $pink;
+			padding: 15px;
+			.deal-discount {
+				@include font-bold(14px, $white, 1);
+				background-color: $pink;
+				padding: 3px 8px;
+				display: inline-block;
+				margin-bottom: 20px;
+			}
+			.deal-img {
+				margin-bottom: 40px;
+				height: 180px;
+				a {
+					display: flex;
+					width: 100%;
+					height: 100%;
+					align-items: center;
+					justify-content: center;
+					padding: 5px;
+					img {
+						max-width: 100%;
+						max-height: 100%;
+					}
+				}
+			}
+			.deal-countdown {
+				margin-bottom: 40px;
+				.event-countdown {
+					display: flex;
+					justify-content: center;
+					.countdown-number {
+						@include font-medium(11px, $regular, 0.5);
+						margin: 0 2px;
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						border: 1px solid $line;
+						border-radius: 10px;
+						height: 48px;
+						width: 48px;
+						padding: 5px;
+						text-transform: uppercase;
+						background-color: $subcolor-7;
+						span {
+							display: block;
+							@include font-bold(24px, $title , 1);
+						}
+					}
+				}
+			}
+			.deal-info {
+				.deal-type {
+					margin-bottom: 10px;
+				}
+				.deal-name {
+					@include link-medium(18px, $title, 24px, $pink);
+					margin-bottom: 5px;
+					transiton: 0.4s;
+				}
+				.deal-price {
+					@include font-medium(20px, $title, 1);
+					transition: .4s ease;
+					margin-bottom: 30px;
+					del {
+						@include font-regular(16px, $disable, 1);
+						display: inline-block;
+					}
+				}
+			}
+			.deal-select {
+				margin-bottom: 10px;
+				button {
+					height: 40px;
+					width: 40px;
+					transiton: 0.4s;
+				}
+			}
+		}	
+	}
+}
+/************************************
+	Deal of the week parallax
+*************************************/
+.deal-of-week_parallax {
+	margin-top: 30px;
+	padding: 100px 0;
+	background: {
+		image: url(../images/homepage04/parallax-home4_2.jpg);
+		repeat: no-repeat;
+		size: cover;
+		attachment: fixed;
+	}
+	h1 {
+		color: $white;
+	}
+	.week-product_img {
+		position: relative;
+		display: inline-block;
+	}
+	.featured-use {
+		.featured-use_intro {
+			h5 {
+				color: $white;
+			}
+			p {  
+				color: $white;
+			}
+		}
+		.featured-use_icon {
+			.icon-detail {
+				background-color: $white;
+			}
+		}
+	}
+}
+
+@include mobile {
+	.deal-of-week {
+		.featured-use {
+			.featured-use_icon {
+				margin-left: 0;
+			}
+		}
+		.week-product_img {
+			margin-bottom: 30px;
+		}
+		#event-countdown {
+			margin-top: 0px;
+		}
+	}
+	.deal-of-week_v2 {
+		margin: 60px 0 30px 0;
+		.dow-info {
+			margin-bottom: 50px;
+		}
+		.dow-img {
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+	.deal-of-week_v3 {
+		.deal-of-week_block {
+			.dow-img {
+				margin-bottom: 30px;
+			}
+			.dow-info {
+				h2 {
+					&:after {
+						width: 60px;
+						margin: auto;
+					}
+				}
+				#event-countdown {
+					.countdown-number {
+						border-radius: 999px;
+						height: 70px;
+						width: 70px;
+						padding: 5px;
+						box-shadow: none;
+						margin: 0 5px;
+					}
+					span {
+						color: $coffee;
+					}
+				}
+			}
+		}
+	}
+	.deal-of-week_parallax {
+		padding: 60px 0 30px 0;
+		.week-product_img {
+			margin-bottom: 60px;
+		}
+	}
+}
+
+@include tablet {
+	.deal-of-week {
+		.featured-use {
+			justify-content: between;
+			.featured-use_intro {
+				flex-grow: 1;
+			}
+			.featured-use_icon {
+				margin-left: 0;
+				margin-right: 26px;
+			}
+		}
+		.week-product_img {
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		#event-countdown {
+			margin-top: 0;
+		}
+	}
+	.deal-of-week_v2 {
+		margin: 60px 0;
+		.dow-info {
+			margin-bottom: 50px;
+		}
+		.dow-img {
+			img {
+				max-width: 100%;
+				width: 100%;
+			}
+		}
+	}
+	.deal-of-week_v3 {
+		.deal-of-week_block {
+			.dow-img {
+				margin-bottom: 30px;
+			}
+			.dow-info {
+				h2 {
+					&:after {
+						width: 60px;
+						margin: auto;
+					}
+				}
+				#event-countdown {
+					.countdown-number {
+						border-radius: 999px;
+						height: 70px;
+						width: 70px;
+						padding: 5px;
+						box-shadow: none;
+						margin: 0 5px;
+					}
+					span {
+						color: $coffee;
+					}
+				}
+			}
+		}
+	}
+	.deal-of-week_parallax {
+		padding: 60px 0 30px 0;
+		.title {
+			margin-bottom: 50px;
+		}
+		.week-product_img {
+			margin-bottom: 60px;
+		}
+	}
+}
+
+@include small-desktop {
+	.deal-of-week {
+		.featured-use {
+			.featured-use_icon-left {
+				margin-right: 0;
+			}
+		}
+	}
+	.deal-of-week_v2 {
+	    margin: 60px 0 30px 0;
+		.dow-info {
+			margin-bottom: 70px;
+		}
+		.dow-img {
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+	.deal-of-week_slide {
+		.week-deal_bottom {
+			margin: 0 -10px;
+			.deal-block {
+				margin: 0 10px;
+			}
+		}
+	}
+	.deal-of-week_v3 {
+		.deal-of-week_block {
+			.dow-img {
+				margin-bottom: 30px;
+			}
+			.dow-info {
+				margin-bottom: 0;
+				h2 {
+					&:after {
+						width: 60px;
+						margin: auto;
+						margin-top: 15px;
+					}
+				}
+				#event-countdown {
+					.countdown-number {
+						border-radius: 999px;
+						height: 70px;
+						width: 70px;
+						padding: 5px;
+						box-shadow: none;
+						margin: 0 5px;
+					}
+					span {
+						color: $coffee;
+					}
+				}
+			}
+		}
+	}
+	.deal-of-week_parallax {
+		padding: 60px 0;
+		.title {
+			margin-bottom: 50px;
+		}
+		.week-product_img {
+			display: none;
+		}
+	}
+}
+
+@include desktop {
+	.deal-of-week {
+		.featured-use {
+			.featured-use_icon-left {
+				margin-right: 0;
+			}
+		}
+		#event-countdown {
+			margin-top: 0;
+		}
+	}
+	.deal-of-week_slide {
+		.week-deal_bottom {
+			margin: 0 -10px;
+			.deal-block {
+				margin: 0 10px;
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+/************************************
+	Breadcrumb
+*************************************/
+.ogami-breadcrumb {
+	margin: 30px 0;
+	ul {
+		padding-top: 30px;
+		border-top: 1px solid $line;
+		li {
+			display: inline-block;
+			&:last-child {
+				.breadcrumb-link {
+					&:after {
+						display: none;
+					}
+				}
+			}
+			.breadcrumb-link {
+				@include link-medium(16px, $title, 1, $title);
+				line-height: 24px;
+				i {
+					padding-right: 5px;
+				}
+				&:after {
+					content: "\35";
+					font-family: 'ElegantIcons';
+					color: $disable;
+					padding: 0 10px;
+				}
+				&.active {
+					color: $disable;
+				}
+			}
+		}
+	}
+}

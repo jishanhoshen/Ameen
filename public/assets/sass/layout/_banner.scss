@@ -1,0 +1,228 @@
+/************************************
+	Banner
+*************************************/
+.banner {
+	margin: 50px 0 60px 0;
+	.banner-block {
+		height: 450px;
+		overflow: hidden;
+		.banner-block_detail {
+			height: 450px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			position: relative;
+			background: {
+				size: cover;
+				repeat: no-repeat;
+				position: center;
+				repeat: no-repeat;
+			}
+			@include animation;
+			&:hover {
+				.banner-btn {
+					transform: translateY(0);
+					opacity: 1;
+				}
+			}
+			img {
+				max-height: 280px;
+				max-width: 80%;
+			}
+			.banner-btn {
+				position: absolute;
+				transform: translateY(20px);
+				opacity: 0;
+				bottom: 30px;
+			}
+		}
+	}
+}
+/************************************
+	Banner v2
+*************************************/
+.banner_v2 {
+	margin-top: 30px;
+	.banner-block {
+		padding: 70px 0;
+		background: {
+			image: url(../images/homepage03/banner_bg.jpg);
+			repeat: no-repeat;
+			position: center;
+			size: cover;
+		}
+		.banner-text {
+			h5 {
+				margin-bottom: 15px;
+			}
+			h2 {
+				font-size: 36px;
+				margin-bottom: 15px;
+			}
+			p {
+				@include font-regular(16px, $regular, 26px);
+				max-width: 305px;
+				margin-bottom: 50px;
+			}
+		}
+	}
+}
+/************************************
+	Banner v3
+*************************************/
+.banner_v3 {
+	@extend .banner_v2;
+	margin-bottom: 30px;
+	.banner-block {
+		padding: 125px 0;
+		background: {
+			image: url(../images/homepage05/banner_bg.png);
+		}
+		.banner-text {
+			h5 {
+				margin-bottom: 15px;
+			}
+			h2 {
+				font-size: 60px;
+				margin-bottom: 15px;
+			}
+			h3 {
+				@include font-bold(30px, $coffee, 26px);
+				margin-bottom: 38px;
+				span {
+					@include font-regular(18px, $regular, 26px);
+					display: inline-block;
+				}
+			}
+		}
+	}
+}
+/************************************
+	Banner group
+*************************************/
+.banner-group {
+	margin: 30px 0 30px 0;
+	.small-banner {
+		height: 236px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		padding: 15px 0;
+		margin-bottom: 30px;
+		background: {
+			repeat: no-repeat;
+			position: center;
+			size: cover;
+		}
+		img {
+			max-height: 190px;
+		}
+		@include animation;
+	}
+	.large-banner {
+		@extend .small-banner;
+		display: block;
+		.row {
+			height: 100%;
+		}
+		.banner-text {
+			h3 {
+				@include font-bold(30px, $title, 1);
+				line-height: 48px;
+				span {
+					color: red;
+				}
+			}
+		}
+		@include animation;
+	}
+}
+
+@include mobile {
+	.banner {
+		margin: 60px 0 30px;
+		.banner-block {
+			height: auto;
+			.banner-block_detail {
+				height: 250px;
+				padding: 30px;
+				img {
+					max-height: 200px;
+   					max-width: 250px;
+				}
+			}
+		}
+	}
+	.banner_v2 {
+		.banner-block {
+			.banner-text {
+				margin-bottom: 50px;
+				p {
+					max-width: inherit;
+				}
+			}
+		}
+	}
+	.banner-group {
+		.small-banner {
+			height: auto;
+		}
+	}
+}
+
+@include tablet {
+	.banner {
+		.banner-block {
+			height: auto;
+			.banner-block_detail {
+				height: 275px;
+				padding: 30px;
+				img {
+					max-height: 200px;
+				}
+			}
+		}
+	}
+	.banner_v2 {
+		.banner-block {
+			.banner-text {
+				margin-bottom: 70px;
+				p {
+					max-width: inherit;
+				}
+			}
+		}
+	}
+}
+
+@include small-desktop {
+	.banner {
+		.banner-block {
+			height: auto;
+			.banner-block_detail {
+				height: auto;
+				padding: 30px;
+				img {
+					max-height: 200px;
+				}
+			}
+		}
+	}
+}
+
+@include desktop {
+	.banner {
+		.banner-block {
+			height: 300px;
+			.banner-block_detail {
+				height: 300px;
+				padding: 30px;
+				img {
+					max-height: 200px;
+				}
+			}
+		}
+	}
+}

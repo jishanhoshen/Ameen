@@ -1,0 +1,62 @@
+/************************************
+	Sale product
+*************************************/
+@include mobile {
+	.sale-product {
+		.sale-product_bottom {
+			.w-100 {
+				display: none;
+			}
+		}
+	}
+}
+@include tablet {
+	.sale-product {
+		.sale-product_bottom {
+			.w-100 {
+				display: none;
+			}
+		}
+	}
+}
+@include small-desktop {
+	.sale-product {
+		.sale-product_top {
+			.title-bb {
+				font-size: 26px
+			}
+		}
+		.sale-product_bottom {
+			.w-100 {
+				display: none;
+			}
+		}
+	}
+}
+@include desktop {
+	.sale-product {
+		.sale-product_bottom {
+			.w-100 {
+				display: none;
+			}
+		}
+	}
+}
+@include medium-desktop {
+	.sale-product {
+		.sale-product_bottom {
+			.w-100 {
+				display: none;
+			}
+		}
+	}
+}
+@include large-desktop {
+	.sale-product {
+		.sale-product_bottom {
+			.w-100 {
+				display: none;
+			}
+		}
+	}
+}

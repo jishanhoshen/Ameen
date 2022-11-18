@@ -1,0 +1,35 @@
+/************************************
+	Partner
+*************************************/
+.partner {
+	height: 120px;
+	margin-bottom: 60px;
+	&.partner_block-bgless {
+		.partner_block {
+			background-color: $white;
+			border: 1px solid $line;
+		}
+	}
+	.partner_block {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		background-color: $line-2;
+		.partner--logo {
+			height: 120px;
+			padding: 15px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: .3s ease;
+			&:hover {
+				transform: scale(0.9);
+				transform-origin: 50% 50%;
+			}
+			img {
+				height: 100%;
+			}
+		}
+	}
+}

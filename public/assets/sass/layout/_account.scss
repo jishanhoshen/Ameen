@@ -1,0 +1,50 @@
+/************************************
+	Account
+*************************************/
+.account {
+	padding: 40px 0 60px 0;
+	h1 {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	form {
+		label {
+			@include font-regular(16px, $title, 1);
+			margin-bottom: 10px;
+		}
+		input {
+			margin-bottom: 30px;
+		}
+		.account-method {
+			margin-bottom: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			input {
+				margin-bottom: 0;
+				margin-right: 10px;
+			}
+			label {
+				display: inline-block;
+				margin-bottom: 0;
+			}
+			.account-forgot {
+				a {
+					@include link-regular(16px, $regular, 1, $green);
+				}
+			}
+		}
+		.account-function {
+			text-align: center;
+			button {
+				width: 100%;
+				margin-bottom: 30px;
+			}
+			.create-account {
+				@include link-regular(16px, $title, 1, $green);
+				text-transform: uppercase;
+				text-decoration: underline;
+			}
+		}	
+	}
+}

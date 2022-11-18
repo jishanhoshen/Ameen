@@ -23,4 +23,5 @@ Auth::routes();
 
 Route::prefix('admin')->group(function(){
     Route::get('/', [HomeController::class, 'index'])->name('home');
+    Route::get('/settings', [HomeController::class, 'settings'])->name('settings');
 });

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,11 +19,8 @@ Route::get('/', function () {
     return view('app');
 });
 
-Route::prefix('admin')->group(function(){
-    Route::get('/', function(){
-        return view('admin');
-    });
-});
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::prefix('admin')->group(function(){
+    Route::get('/', [HomeController::class, 'index'])->name('home');
+});

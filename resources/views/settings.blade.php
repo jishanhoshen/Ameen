@@ -21,32 +21,68 @@
 <!-- Main content -->
 <section class="content">
 
-    <!-- Default box -->
-    <div class="card">
-        <div class="card-header">
-            <h3 class="card-title">Website Settings</h3>
+    <div class="col-md-12">
+        <!-- general form elements -->
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Website Setting</h3>
+            </div>
+            <!-- /.card-header -->
+            <!-- form start -->
+            <form>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="companyNameInput">Company Name</label>
+                                <input type="text" class="form-control" id="companyNameInput" placeholder="Company Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputFile">Logo</label>
+                                <div class="input-group">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="exampleInputFile">
+                                        <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                    </div>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">Upload</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="emailInput">Email</label>
+                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneInput">Phone</label>
+                                <input type="text" class="form-control" id="phoneInput" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Office Address</label>
+                                <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Production House Address</label>
+                                <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card-body -->
 
-            <!-- <div class="card-tools">
-                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                    <i class="fas fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div> -->
-        </div>
-        <div class="card-body">
-            <form action="">
-                
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
             </form>
         </div>
-        <!-- /.card-body -->
-        <!-- <div class="card-footer">
-            Footer
-        </div> -->
-        <!-- /.card-footer-->
+        <!-- /.card -->
     </div>
-    <!-- /.card -->
 
 </section>
 <!-- /.content -->

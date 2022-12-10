@@ -1607,7 +1607,6 @@ a {
 	Mobile menu
 *************************************/
 #mobile-menu {
-  margin-bottom: 15px;
   padding: 15px 0;
   display: none; }
   #mobile-menu .mobile-menu_block {
@@ -1715,6 +1714,8 @@ a {
             text-decoration: none; }
   #mobile-menu .mobile-menu_logo {
     height: 100%; }
+    #mobile-menu .mobile-menu_logo a img{ 
+      height:30px }
   #mobile-menu .mobile-product_function {
     height: 100%; }
     #mobile-menu .mobile-product_function a {
@@ -2514,6 +2515,8 @@ header .header-block {
 
 header .navigation {
   padding: 20px 0; }
+  header .navigation .logo img {
+    height:30px}
   header .navigation .navgition-menu {
     height: 100%; }
     header .navigation .navgition-menu ul .toggleable {
@@ -3253,7 +3256,7 @@ header.coffee-2 .navigation-filter .website-search .filter-search .categories-se
 *************************************/
 .slider {
   position: relative;
-  margin-top: 30px; }
+  margin-top: 0px; }
   .slider:hover .slick-arrow {
     opacity: 1;
     visibility: visible; }

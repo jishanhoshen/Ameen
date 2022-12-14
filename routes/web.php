@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('app');
 });
 
+// Route::get('/phpinfo', function () {
+//     return phpinfo();
+// });
+
 Auth::routes();
 
 Route::prefix('admin')->group(function(){

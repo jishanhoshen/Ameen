@@ -29,7 +29,7 @@
             </div>
             <!-- /.card-header -->
             <!-- form start -->
-            <form>
+            <form action="{{ route('settingsUpdate') }}" method="post" id="settingsUpdate">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6">
@@ -62,14 +62,18 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>Office Address</label>
-                                <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                <label>Address</label>
+                                <textarea class="form-control" rows="3" placeholder="Enter Address"></textarea>
                             </div>
                         </div>
                         <div class="col-md-6">
+                        <div class="form-group">
+                                <label for="scinceInput">Since</label>
+                                <input type="number" min="1900" max="2099" step="1" value="2016" class="form-control" id="scinceInput" placeholder="Since">
+                            </div>
                             <div class="form-group">
-                                <label>Production House Address</label>
-                                <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                <label for="facebookInput">Facebook</label>
+                                <input type="text" class="form-control" id="facebookInput" placeholder="Phone">
                             </div>
                         </div>
                     </div>
@@ -83,7 +87,9 @@
         </div>
         <!-- /.card -->
     </div>
-
+<script>
+    
+</script>
 </section>
 <!-- /.content -->
 @endsection

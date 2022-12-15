@@ -28,4 +28,5 @@ Auth::routes();
 Route::prefix('admin')->group(function(){
     Route::get('/', [HomeController::class, 'index'])->name('home');
     Route::get('/settings', [HomeController::class, 'settings'])->name('settings');
+    Route::post('/settings/update', [HomeController::class, 'settingsUpdate'])->name('settingsUpdate');
 });

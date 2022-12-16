@@ -25,8 +25,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::prefix('admin')->group(function(){
+Route::group(['prefix' => 'admin', 'middleware' => ['auth']],function(){
     Route::get('/', [HomeController::class, 'index'])->name('home');
-    Route::get('/settings', [HomeController::class, 'settings'])->name('settings');
-    Route::post('/settings/update', [HomeController::class, 'settingsUpdate'])->name('settingsUpdate');
+    Route::group(['prefix' => 'settings',],function(){
+        Route::get('/', [HomeController::class, 'settings'])->name('settings');
+        Route::post('/update', [HomeController::class, 'settingsUpdate'])->name('settingsUpdate');
+    });
 });

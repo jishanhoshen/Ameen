@@ -44,6 +44,11 @@ class HomeController extends Controller
     public function settingsUpdate(Request $request)
     {
 
+        // $validated = $request->validate([
+        //     'title' => 'required|unique:posts|max:255',
+        //     'body' => 'required',
+        // ]);
+
         function updateQuery($name, $value)
         {
             $query = Setting::where('name', $name)->first();
@@ -60,21 +65,28 @@ class HomeController extends Controller
 
         }
 
-        if ($company = updateQuery('company', $request->company)) {
-            $update = [
-                'company' => $company
-            ];
-
-        }else{
-            return response()->json([
-                'query' => false,
-                'name' => $request->company
-            ]);
+        $update=[];
+        $error=[];
+        
+        foreach($request->all() as $key => $value){
+            // echo $key.': '.$value.', ';
+            if($item = updateQuery($key, $value)){
+                $update[] = [
+                    $key => $item
+                ];
+            }else{
+                if($key != '_token'){
+                    $error[] = [
+                        $key => $item
+                    ];
+                }
+            }
         }
-
+        
         return response()->json([
             'query' => true,
-            'update' => $update
+            'update' => $update,
+            'error' => $error
         ]);
 
 

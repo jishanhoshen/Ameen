@@ -73,7 +73,7 @@
                                 <div class="form-group">
                                     <label for="sinceInput">Since</label>
                                     <input type="number" min="1900" max="2099" step="1"
-                                        class="form-control" name="sinceInput" id="since" placeholder="Since" value="{{ $company['since'] ?? 2016 }}">
+                                        class="form-control" name="since" id="since" placeholder="Since" value="{{ $company['since'] ?? 2016 }}">
                                 </div>
                                 <div class="form-group">
                                     <label for="facebookInput">Facebook</label>

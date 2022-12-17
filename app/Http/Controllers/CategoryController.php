@@ -24,10 +24,10 @@ class CategoryController extends Controller
 
                     $btn = '
                     <button type="button" class="edit btn btn-primary btn-sm" data-toggle="modal"
-                    data-target="#edit-category-modal'.$row->id.'">
+                    data-target="#edit-category-modal' . $row->id . '">
                     Edit
                     </button>
-                    <div class="modal fade" id="edit-category-modal'.$row->id.'" style="display: none;" aria-hidden="true">
+                    <div class="modal fade" id="edit-category-modal' . $row->id . '" style="display: none;" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -36,18 +36,18 @@ class CategoryController extends Controller
                                         <span aria-hidden="true">×</span>
                                     </button>
                                 </div>
-                                <form action="'.route("editcategory").'" method="post" id="editcategory'.$row->id.'" enctype="multipart/form-data">
+                                <form action="' . route("editcategory") . '" method="post" id="editcategory' . $row->id . '" enctype="multipart/form-data">
                                     ' . csrf_field() . '
-                                    <input type="hidden" name="id" value="'.$row->id.'"/>
+                                    <input type="hidden" name="id" value="' . $row->id . '"/>
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label for="categoryName">Category Name</label>
                                             <input type="text" class="form-control" name="name" id="categoryName"
-                                                placeholder="Category" value="'.$row->name.'">
+                                                placeholder="Category" value="' . $row->name . '">
                                         </div>
                                         <div class="form-group">
                                             <label for="categoryDesc">Category Description</label>
-                                            <textarea type="text" class="form-control" name="desc" id="categoryDesc">'.$row->desc.'</textarea>
+                                            <textarea type="text" class="form-control" name="desc" id="categoryDesc">' . $row->desc . '</textarea>
                                         </div>
                                         <div class="form-group">
                                             <label for="categoryInputFile">Category Image</label>
@@ -62,7 +62,7 @@ class CategoryController extends Controller
                                         </div>
                                         <div class="form-check">
                                             <input type="checkbox" class="form-check-input" name="status"
-                                                id="categoryStatus" '.($row->status == 0 ? 'value="on"' : "").'>
+                                                id="categoryStatus" ' . ($row->status == 0 ? 'value="on"' : "") . '>
                                             <label class="form-check-label" for="categoryStatus">Deactive</label>
                                         </div>
                                     </div>
@@ -72,7 +72,7 @@ class CategoryController extends Controller
                                     </div>
                                 </form>
                                 <script>
-                                $("form#editcategory'.$row->id.'").submit(function(e) {
+                                $("form#editcategory' . $row->id . '").submit(function(e) {
                                     e.preventDefault();
                                     var formData = new FormData(this);
                                     var form = $(this);
@@ -85,8 +85,8 @@ class CategoryController extends Controller
                                         success: function(data) {
                                             console.log(data);
                                             $("#categorylist").DataTable().ajax.reload();
-                                            $("form#editcategory'.$row->id.'")[0].reset();
-                                            $("#edit-category-modal'.$row->id.'").modal("toggle");
+                                            $("form#editcategory' . $row->id . '")[0].reset();
+                                            $("#edit-category-modal' . $row->id . '").modal("toggle");
                                             $(document).Toasts("create", {
                                                 class: "bg-success fade",
                                                 title: "Updated",
@@ -106,7 +106,7 @@ class CategoryController extends Controller
 
                     <form action="' . route('destroycategory') . '" id="categoryDelete' . $row->id . '" method="post" class="d-inline">
                         ' . csrf_field() . '
-                        <input type="hidden" name="id" value="'.$row->id.'"/>
+                        <input type="hidden" name="id" value="' . $row->id . '"/>
                         <button class="delete btn btn-warning btn-sm" type="submit">Hide</button>
                     </form>
                     <script>
@@ -164,7 +164,6 @@ class CategoryController extends Controller
             'name' => 'required',
             'desc' => 'required',
             'image' => 'required',
-            'status' => 'required',
             'image.*' => 'image|mimes:jpeg,png,jpg,gif,svg,webp|max:2048'
         ]);
 
@@ -178,7 +177,7 @@ class CategoryController extends Controller
         $category->save();
 
         if ($request->hasFile('image')) {
-            $i = 0;
+            $i = 1;
             foreach ($request->file('image') as $image) {
                 // $imageName = $image->getClientOriginalName();
                 $imageExt = $image->getClientOriginalExtension();
@@ -191,6 +190,7 @@ class CategoryController extends Controller
 
         $category->image = json_encode($imageData);
         $category->save();
+        return true;
     }
 
     /**
@@ -239,7 +239,6 @@ class CategoryController extends Controller
             $category->save();
         }
         return response()->json($category);
-
     }
 
     /**

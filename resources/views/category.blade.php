@@ -143,13 +143,23 @@
                 $("form#getCategory").submit(function(e) {
                     e.preventDefault();
                     var formData = new FormData(this);
-                    var url = form.attr('action');
+                    var form = $(this);
+                    var actionUrl = form.attr("action");
+                    var Method = form.attr("method");
                     $.ajax({
-                        url: url,
-                        type: 'POST',
+                        url: actionUrl,
+                        type: Method,
                         data: formData,
                         success: function(data) {
-                            alert(data)
+                            $("#categorylist").DataTable().ajax.reload();
+                            $("form#getCategory")[0].reset();
+                            $("#add-category-modal").modal("toggle");
+                            $(document).Toasts("create", {
+                                class: "bg-success fade",
+                                title: "Added",
+                                subtitle: "category",
+                                body: "Your category is added."
+                            });
                         },
                         cache: false,
                         contentType: false,

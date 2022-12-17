@@ -39,9 +39,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']],function(){
     Route::group(['prefix' => 'products',],function(){
         Route::get('/', [ProductController::class, 'index'])->name('products');
         Route::get('/create', [ProductController::class, 'create'])->name('createproduct');
-        Route::get('/store', [ProductController::class, 'store'])->name('storeproduct');
-        Route::get('/edit', [ProductController::class, 'edit'])->name('editproduct');
-        Route::get('/destroy', [ProductController::class, 'destroy'])->name('destroyproduct');
+        Route::post('/store', [ProductController::class, 'store'])->name('storeproduct');
+        Route::post('/edit', [ProductController::class, 'edit'])->name('editproduct');
+        Route::post('/destroy', [ProductController::class, 'destroy'])->name('destroyproduct');
     });
     Route::group(['prefix' => 'settings',],function(){
         Route::get('/', [HomeController::class, 'settings'])->name('settings');

@@ -38,7 +38,7 @@
                                 <div class="form-group">
                                     <label for="companyNameInput">Company Name</label>
                                     <input type="text" class="form-control" name="company" id="companyNameInput"
-                                        placeholder="Company Name" value="{{ $company['name'] }}">
+                                        placeholder="Company Name" value="{{ $company['name'] ?? '' }}">
                                 </div>
                                 <div class="form-group">
                                     <label for="logoInputFile">Logo</label>
@@ -56,17 +56,17 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="emailInput">Email</label>
-                                    <input type="email" class="form-control" name="email" id="emailInput" placeholder="Email" value="{{ $company['email'] }}">
+                                    <input type="email" class="form-control" name="email" id="emailInput" placeholder="Email" value="{{ $company['email'] ?? ''  }}">
                                 </div>
                                 <div class="form-group">
                                     <label for="phoneInput">Phone</label>
-                                    <input type="text" class="form-control" name="phone" id="phoneInput" placeholder="Phone" value="{{ $company['phone'] }}">
+                                    <input type="text" class="form-control" name="phone" id="phoneInput" placeholder="Phone" value="{{ $company['phone'] ?? ''  }}">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="addressInput">Address</label>
-                                    <textarea class="form-control" rows="3" name="address" id="addressInput" placeholder="Enter Address">{{ $company['address'] }}</textarea>
+                                    <textarea class="form-control" rows="3" name="address" id="addressInput" placeholder="Enter Address">{{ $company['address'] ?? '' }}</textarea>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -77,7 +77,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="facebookInput">Facebook</label>
-                                    <input type="text" class="form-control" name="facebook" id="facebookInput" placeholder="https://facebook.com/" value="{{ $company['facebook'] }}"/> 
+                                    <input type="text" class="form-control" name="facebook" id="facebookInput" placeholder="https://facebook.com/" value="{{ $company['facebook'] ?? ''  }}"/> 
                                 </div>
                             </div>
                         </div>

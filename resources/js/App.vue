@@ -59,7 +59,7 @@ export default {
             try {
                 const url = `api/settings`
                 const resp = await axios.get(url);
-                // this.company = resp.data;
+                this.company = resp.data;
             } catch {
                 if (err.response) {
                     // client received an error response (5xx, 4xx)

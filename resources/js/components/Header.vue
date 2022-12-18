@@ -46,8 +46,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-2">
-                    <a class="logo" href="/"><img v-if="logo" :src="'assets/images/'+(logo)" :alt="company.name"/></a>
-                </div>
+                    <a class="logo" href="/"><img :src="(company != '' ? 'assets/images/'+company.logo : 'transparent.png')" :alt="company.name"/></a>
+                </div> 
                 <div class="col-8">
                     <div class="navgition-menu d-flex align-items-center justify-content-center">
                         <ul class="mb-0">
@@ -104,7 +104,7 @@
                 </div>
                 <div class="col-5">
                     <div class="mobile-menu_logo text-center d-flex justify-content-center align-items-center">
-                        <a href=""><img v-if="logo" :src="'assets/images/'+(logo)" :alt="company.name"/></a>
+                        <a href=""><img :src="(company != '' ? 'assets/images/'+company.logo : 'transparent.png')" :alt="company.name"/></a>
                     </div>
                 </div>
                 <div class="col-4">
@@ -118,11 +118,6 @@
 
 <script>
 export default {
-    props: ['company'],
-    data(){
-        return{
-            logo: (this.company ? this.company.logo : []), 
-        }
-    }
+    props: ['company']
 };
 </script>

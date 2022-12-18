@@ -5359,6 +5359,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   methods: {
     getSettings: function getSettings() {
+      var _this = this;
       return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
         var url, resp;
         return _regeneratorRuntime().wrap(function _callee$(_context) {
@@ -5371,10 +5372,11 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 return axios__WEBPACK_IMPORTED_MODULE_7___default().get(url);
               case 4:
                 resp = _context.sent;
-                _context.next = 10;
+                _this.company = resp.data;
+                _context.next = 11;
                 break;
-              case 7:
-                _context.prev = 7;
+              case 8:
+                _context.prev = 8;
                 _context.t0 = _context["catch"](0);
                 if (err.response) {
                   // client received an error response (5xx, 4xx)
@@ -5385,16 +5387,16 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 } else {
                   console.log("Client Error:", err);
                 }
-              case 10:
+              case 11:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, null, [[0, 7]]);
+        }, _callee, null, [[0, 8]]);
       }))();
     },
     getCategories: function getCategories() {
-      var _this = this;
+      var _this2 = this;
       return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
         var url, resp;
         return _regeneratorRuntime().wrap(function _callee2$(_context2) {
@@ -5407,7 +5409,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 return axios__WEBPACK_IMPORTED_MODULE_7___default().get(url);
               case 4:
                 resp = _context2.sent;
-                _this.categories = resp.data;
+                _this2.categories = resp.data;
                 _context2.next = 11;
                 break;
               case 8:
@@ -5431,7 +5433,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       }))();
     },
     getProducts: function getProducts() {
-      var _this2 = this;
+      var _this3 = this;
       return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
         var url, resp;
         return _regeneratorRuntime().wrap(function _callee3$(_context3) {
@@ -5444,8 +5446,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 return axios__WEBPACK_IMPORTED_MODULE_7___default().get(url);
               case 4:
                 resp = _context3.sent;
-                _this2.products = resp.data.product;
-                _this2.productBycats = resp.data.productByCat;
+                _this3.products = resp.data.product;
+                _this3.productBycats = resp.data.productByCat;
                 _context3.next = 12;
                 break;
               case 9:
@@ -5550,11 +5552,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['company'],
-  data: function data() {
-    return {
-      logo: this.company ? this.company.logo : []
-    };
-  },
   methods: {
     since: function since() {
       if (this.currentDate() == this.company.since) {
@@ -5586,12 +5583,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: ['company'],
-  data: function data() {
-    return {
-      logo: this.company ? this.company.logo : []
-    };
-  }
+  props: ['company']
 });
 
 /***/ }),
@@ -5967,12 +5959,12 @@ var render = function render() {
     staticClass: "col-12 col-sm-12 col-md-4 text-sm-center text-md-left"
   }, [_c("div", {
     staticClass: "footer-logo"
-  }, [_vm.logo ? _c("img", {
+  }, [_c("img", {
     attrs: {
-      src: "assets/images/" + _vm.logo,
+      src: _vm.company != "" ? "assets/images/" + _vm.company.logo : "transparent.png",
       alt: _vm.company.name
     }
-  }) : _vm._e()]), _vm._v(" "), _c("div", {
+  })]), _vm._v(" "), _c("div", {
     staticClass: "footer-contact"
   }, [_c("p", [_vm._v("Address: " + _vm._s(_vm.company.address))]), _vm._v(" "), _c("p", [_vm._v("Phone: " + _vm._s(_vm.company.phone))]), _vm._v(" "), _c("p", [_vm._v("Email: " + _vm._s(_vm.company.email))])]), _vm._v(" "), _vm._m(0)]), _vm._v(" "), _vm._m(1)])]), _vm._v(" "), _vm._m(2), _vm._v(" "), _c("div", {
     staticClass: "footer-credit"
@@ -6178,12 +6170,12 @@ var render = function render() {
     attrs: {
       href: "/"
     }
-  }, [_vm.logo ? _c("img", {
+  }, [_c("img", {
     attrs: {
-      src: "assets/images/" + _vm.logo,
+      src: _vm.company != "" ? "assets/images/" + _vm.company.logo : "transparent.png",
       alt: _vm.company.name
     }
-  }) : _vm._e()])]), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1)])])]), _vm._v(" "), _c("div", {
+  })])]), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1)])])]), _vm._v(" "), _c("div", {
     attrs: {
       id: "mobile-menu"
     }
@@ -6199,12 +6191,12 @@ var render = function render() {
     attrs: {
       href: ""
     }
-  }, [_vm.logo ? _c("img", {
+  }, [_c("img", {
     attrs: {
-      src: "assets/images/" + _vm.logo,
+      src: _vm.company != "" ? "assets/images/" + _vm.company.logo : "transparent.png",
       alt: _vm.company.name
     }
-  }) : _vm._e()])])]), _vm._v(" "), _vm._m(3)])])])]);
+  })])])]), _vm._v(" "), _vm._m(3)])])])]);
 };
 var staticRenderFns = [function () {
   var _vm = this,

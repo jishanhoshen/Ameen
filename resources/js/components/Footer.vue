@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-4 text-sm-center text-md-left">
-                <div class="footer-logo"><img v-if="logo" :src="'assets/images/'+(logo)" :alt="company.name"/></div>
+                <div class="footer-logo"><img :src="(company != '' ? 'assets/images/'+company.logo : 'transparent.png')" :alt="company.name"/></div>
                 <div class="footer-contact">
                     <p>Address: {{ company.address }}</p>
                     <p>Phone: {{ company.phone }}</p>
@@ -78,11 +78,6 @@
 <script>
 export default {
     props: ['company'],
-    data(){
-        return{
-            logo: (this.company ? this.company.logo : []), 
-        }
-    },
     methods: {
         since() {
             if (this.currentDate() == this.company.since) {

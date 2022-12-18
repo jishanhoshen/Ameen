@@ -16,8 +16,8 @@
                             <div class="row no-gutters-sm">
                                 <div v-for="product in products" class="col-6 col-md-4 col-lg-3">
                                     <div class="product">
-                                        <a class="product-img" href="shop_detail.html"><img
-                                                src="assets/images/product/product01.png" alt="" /></a>
+                                        <a class="product-img" href=""><img
+                                                :src="'images/product/'+(product ? (JSON.parse(product.image)[0] ? JSON.parse(product.image)[0] : '' ) : '' )" :alt="product.name" /></a>
                                         <h5 class="product-type">{{ product.category }}</h5>
                                         <h3 class="product-name">
                                             {{ product.name }}
@@ -30,8 +30,8 @@
                             <div class="row no-gutters-sm">
                                 <div v-for="product in productBycat" class="col-6 col-md-4 col-lg-3">
                                     <div class="product" :id="product.name">
-                                        <a class="product-img" href="shop_detail.html"><img
-                                                src="assets/images/product/product01.png" alt="" /></a>
+                                        <a class="product-img" href=""><img
+                                            :src="'images/product/'+(product ? (JSON.parse(product.image)[0] ? JSON.parse(product.image)[0] : '' ) : '' )" :alt="product.name" /></a>
                                         <h5 class="product-type">{{ product.category }}</h5>
                                         <h3 class="product-name">
                                             {{ product.name }}

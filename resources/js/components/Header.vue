@@ -55,10 +55,10 @@
                                 <a class="menu-item active" href="/">Home</a>
                             </li>
                             <li class="toggleable">
-                                <a class="menu-item" href="{{}}">Products</a>
+                                <a class="menu-item" href="#">Products</a>
                             </li>
                             <li class="toggleable">
-                                <a class="menu-item" href="{{}}">About us</a>
+                                <a class="menu-item" href="#">About us</a>
                             </li>
                         </ul>
                     </div>
@@ -67,7 +67,7 @@
                     <div class="navgition-menu d-flex align-items-center justify-content-center">
                         <ul class="mb-0">
                             <li class="toggleable">
-                                <a class="menu-item active" href="/">Become a Distributor</a>
+                                <a class="menu-item active" href="#">Become a Distributor</a>
                             </li>
                         </ul>
                     </div>
@@ -91,10 +91,10 @@
                                         <a class="menu-item active" href="/">Home</a>
                                     </li>
                                     <li class="toggleable">
-                                        <a class="menu-item" href="{{}}">Products</a>
+                                        <a class="menu-item" href="#">Products</a>
                                     </li>
                                     <li class="toggleable">
-                                        <a class="menu-item" href="{{}}">About us</a>
+                                        <a class="menu-item" href="#">About us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -104,11 +104,11 @@
                 </div>
                 <div class="col-5">
                     <div class="mobile-menu_logo text-center d-flex justify-content-center align-items-center">
-                        <a href=""><img :src="(company != '' ? 'assets/images/'+company.logo : 'transparent.png')" :alt="company.name"/></a>
+                        <a href="#"><img :src="(company != '' ? 'assets/images/'+company.logo : 'transparent.png')" :alt="company.name"/></a>
                     </div>
                 </div>
                 <div class="col-4">
-                    <button class="no-round-btn py-2 px-3">Join Us</button>
+                    <a href="#" class="no-round-btn py-2 px-3">Join Us</a>
                 </div>
             </div>
         </div>

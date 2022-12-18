@@ -7187,3 +7187,9 @@ footer.coffee .newletter {
       opacity: 0 !important;
       height: 0 !important;
     }
+    .feature-products .tab-control{
+      white-space: normal !important;
+    }
+    .feature-products .tab-control li{
+      padding: 15px 15px !important;
+    }

@@ -46,13 +46,11 @@ Route::get('products', function () {
 
     $temp = '';
     foreach ($product as $item) {
-        
-        $productByCat[] = $item;
-        $item->type = $temp;
-        if ($item->type == $temp) {
-
-        }
+        $productByCat[$item->type][] = $item;
     }
 
-    return response()->json($product);
+    return response()->json([
+        'product' => $product,
+        'productByCat' => $productByCat
+    ]);
 });

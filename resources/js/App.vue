@@ -53,14 +53,13 @@ export default {
         this.getSettings();
         this.getCategories();
         this.getProducts();
-        this.getProductBycats();
     },
     methods: {
         async getSettings() {
             try {
                 const url = `api/settings`
                 const resp = await axios.get(url);
-                this.company = resp.data;
+                // this.company = resp.data;
             } catch {
                 if (err.response) {
                     // client received an error response (5xx, 4xx)
@@ -94,7 +93,8 @@ export default {
             try {
                 const url = `api/products`
                 const resp = await axios.get(url);
-                this.products = resp.data;
+                this.products = resp.data.product;
+                this.productBycats = resp.data.productByCat;
             } catch {
                 if (err.response) {
                     // client received an error response (5xx, 4xx)
@@ -107,9 +107,6 @@ export default {
                 }
             }
         },
-        async getProductBycats() {
-
-        }
     }
 };
 </script>

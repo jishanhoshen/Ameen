@@ -5356,11 +5356,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     this.getSettings();
     this.getCategories();
     this.getProducts();
-    this.getProductBycats();
   },
   methods: {
     getSettings: function getSettings() {
-      var _this = this;
       return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
         var url, resp;
         return _regeneratorRuntime().wrap(function _callee$(_context) {
@@ -5373,11 +5371,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 return axios__WEBPACK_IMPORTED_MODULE_7___default().get(url);
               case 4:
                 resp = _context.sent;
-                _this.company = resp.data;
-                _context.next = 11;
+                _context.next = 10;
                 break;
-              case 8:
-                _context.prev = 8;
+              case 7:
+                _context.prev = 7;
                 _context.t0 = _context["catch"](0);
                 if (err.response) {
                   // client received an error response (5xx, 4xx)
@@ -5388,16 +5385,16 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 } else {
                   console.log("Client Error:", err);
                 }
-              case 11:
+              case 10:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, null, [[0, 8]]);
+        }, _callee, null, [[0, 7]]);
       }))();
     },
     getCategories: function getCategories() {
-      var _this2 = this;
+      var _this = this;
       return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
         var url, resp;
         return _regeneratorRuntime().wrap(function _callee2$(_context2) {
@@ -5410,7 +5407,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 return axios__WEBPACK_IMPORTED_MODULE_7___default().get(url);
               case 4:
                 resp = _context2.sent;
-                _this2.categories = resp.data;
+                _this.categories = resp.data;
                 _context2.next = 11;
                 break;
               case 8:
@@ -5434,7 +5431,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       }))();
     },
     getProducts: function getProducts() {
-      var _this3 = this;
+      var _this2 = this;
       return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
         var url, resp;
         return _regeneratorRuntime().wrap(function _callee3$(_context3) {
@@ -5447,11 +5444,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 return axios__WEBPACK_IMPORTED_MODULE_7___default().get(url);
               case 4:
                 resp = _context3.sent;
-                _this3.products = resp.data;
-                _context3.next = 11;
+                _this2.products = resp.data.product;
+                _this2.productBycats = resp.data.productByCat;
+                _context3.next = 12;
                 break;
-              case 8:
-                _context3.prev = 8;
+              case 9:
+                _context3.prev = 9;
                 _context3.t0 = _context3["catch"](0);
                 if (err.response) {
                   // client received an error response (5xx, 4xx)
@@ -5462,25 +5460,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 } else {
                   console.log("Client Error:", err);
                 }
-              case 11:
+              case 12:
               case "end":
                 return _context3.stop();
             }
           }
-        }, _callee3, null, [[0, 8]]);
-      }))();
-    },
-    getProductBycats: function getProductBycats() {
-      return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
-        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-              case "end":
-                return _context4.stop();
-            }
-          }
-        }, _callee4);
+        }, _callee3, null, [[0, 9]]);
       }))();
     }
   }
@@ -5565,6 +5550,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['company'],
+  data: function data() {
+    return {
+      logo: this.company ? this.company.logo : []
+    };
+  },
   methods: {
     since: function since() {
       if (this.currentDate() == this.company.since) {
@@ -5596,7 +5586,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: ['company']
+  props: ['company'],
+  data: function data() {
+    return {
+      logo: this.company ? this.company.logo : []
+    };
+  }
 });
 
 /***/ }),
@@ -5779,7 +5774,7 @@ var render = function render() {
       staticClass: "categories-img"
     }, [_c("img", {
       attrs: {
-        src: "images/category/" + JSON.parse(category.image)[0],
+        src: "images/category/" + (category ? JSON.parse(category.image)[0] ? JSON.parse(category.image)[0] : "" : ""),
         alt: category.name
       }
     })]), _vm._v(" "), _c("h2", [_vm._v(_vm._s(category.name))]), _vm._v(" "), _c("p", [_vm._v(_vm._s(category.desc))])])]);
@@ -5845,17 +5840,7 @@ var render = function render() {
     staticClass: "container"
   }, [_c("div", {
     staticClass: "row"
-  }, [_c("div", {
-    staticClass: "col-12 text-center"
-  }, [_c("h1", {
-    staticClass: "title mx-auto"
-  }, [_vm._v("Featured Product")]), _vm._v(" "), _c("button", {
-    on: {
-      click: function click($event) {
-        return _vm.myFunction();
-      }
-    }
-  }, [_vm._v("Click Me")])]), _vm._v(" "), _c("div", {
+  }, [_vm._m(0), _vm._v(" "), _c("div", {
     staticClass: "col-12"
   }, [_c("div", {
     attrs: {
@@ -5863,15 +5848,60 @@ var render = function render() {
     }
   }, [_c("ul", {
     staticClass: "tab-control"
-  }, [_vm._m(0), _vm._v(" "), _vm._l(_vm.categories, function (category) {
+  }, [_vm._m(1), _vm._v(" "), _vm._l(_vm.categories, function (category) {
     return _c("li", [_c("a", {
       attrs: {
         href: "#category_" + category.id
       }
     }, [_vm._v(_vm._s(category.name))])]);
-  })], 2)])])])])]);
+  })], 2), _vm._v(" "), _c("div", {
+    attrs: {
+      id: "allcat"
+    }
+  }, [_c("div", {
+    staticClass: "row no-gutters-sm"
+  }, _vm._l(_vm.products, function (product) {
+    return _c("div", {
+      staticClass: "col-6 col-md-4 col-lg-3"
+    }, [_c("div", {
+      staticClass: "product"
+    }, [_vm._m(2, true), _vm._v(" "), _c("h5", {
+      staticClass: "product-type"
+    }, [_vm._v(_vm._s(product.category))]), _vm._v(" "), _c("h3", {
+      staticClass: "product-name"
+    }, [_vm._v("\n                                        " + _vm._s(product.name) + "\n                                    ")])])]);
+  }), 0)]), _vm._v(" "), _vm._l(_vm.productBycats, function (productBycat, index) {
+    return _c("div", {
+      attrs: {
+        id: "category_" + index
+      }
+    }, [_c("div", {
+      staticClass: "row no-gutters-sm"
+    }, _vm._l(productBycat, function (product) {
+      return _c("div", {
+        staticClass: "col-6 col-md-4 col-lg-3"
+      }, [_c("div", {
+        staticClass: "product",
+        attrs: {
+          id: product.name
+        }
+      }, [_vm._m(3, true), _vm._v(" "), _c("h5", {
+        staticClass: "product-type"
+      }, [_vm._v(_vm._s(product.category))]), _vm._v(" "), _c("h3", {
+        staticClass: "product-name"
+      }, [_vm._v("\n                                        " + _vm._s(product.name) + "\n                                    ")])])]);
+    }), 0)]);
+  })], 2)])])])]);
 };
 var staticRenderFns = [function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "col-12 text-center"
+  }, [_c("h1", {
+    staticClass: "title mx-auto"
+  }, [_vm._v("Featured Product")])]);
+}, function () {
   var _vm = this,
     _c = _vm._self._c;
   return _c("li", [_c("a", {
@@ -5880,6 +5910,34 @@ var staticRenderFns = [function () {
       href: "#allcat"
     }
   }, [_vm._v("All")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("a", {
+    staticClass: "product-img",
+    attrs: {
+      href: "shop_detail.html"
+    }
+  }, [_c("img", {
+    attrs: {
+      src: "assets/images/product/product01.png",
+      alt: ""
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("a", {
+    staticClass: "product-img",
+    attrs: {
+      href: "shop_detail.html"
+    }
+  }, [_c("img", {
+    attrs: {
+      src: "assets/images/product/product01.png",
+      alt: ""
+    }
+  })]);
 }];
 render._withStripped = true;
 
@@ -5909,12 +5967,12 @@ var render = function render() {
     staticClass: "col-12 col-sm-12 col-md-4 text-sm-center text-md-left"
   }, [_c("div", {
     staticClass: "footer-logo"
-  }, [_c("img", {
+  }, [_vm.logo ? _c("img", {
     attrs: {
-      src: "assets/images/" + _vm.company.logo,
+      src: "assets/images/" + _vm.logo,
       alt: _vm.company.name
     }
-  })]), _vm._v(" "), _c("div", {
+  }) : _vm._e()]), _vm._v(" "), _c("div", {
     staticClass: "footer-contact"
   }, [_c("p", [_vm._v("Address: " + _vm._s(_vm.company.address))]), _vm._v(" "), _c("p", [_vm._v("Phone: " + _vm._s(_vm.company.phone))]), _vm._v(" "), _c("p", [_vm._v("Email: " + _vm._s(_vm.company.email))])]), _vm._v(" "), _vm._m(0)]), _vm._v(" "), _vm._m(1)])]), _vm._v(" "), _vm._m(2), _vm._v(" "), _c("div", {
     staticClass: "footer-credit"
@@ -6120,12 +6178,12 @@ var render = function render() {
     attrs: {
       href: "/"
     }
-  }, [_c("img", {
+  }, [_vm.logo ? _c("img", {
     attrs: {
-      src: "assets/images/" + _vm.company.logo,
+      src: "assets/images/" + _vm.logo,
       alt: _vm.company.name
     }
-  })])]), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1)])])]), _vm._v(" "), _c("div", {
+  }) : _vm._e()])]), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1)])])]), _vm._v(" "), _c("div", {
     attrs: {
       id: "mobile-menu"
     }
@@ -6141,12 +6199,12 @@ var render = function render() {
     attrs: {
       href: ""
     }
-  }, [_c("img", {
+  }, [_vm.logo ? _c("img", {
     attrs: {
-      src: "assets/images/" + _vm.company.logo,
+      src: "assets/images/" + _vm.logo,
       alt: _vm.company.name
     }
-  })])])]), _vm._v(" "), _vm._m(3)])])])]);
+  }) : _vm._e()])])]), _vm._v(" "), _vm._m(3)])])])]);
 };
 var staticRenderFns = [function () {
   var _vm = this,

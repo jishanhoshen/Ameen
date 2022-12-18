@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Models\Category;
+use App\Models\Product;
 use App\Models\Setting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -31,4 +33,26 @@ Route::get('settings', function () {
         'since' => $company[5]->value,
         'facebook' => $company[6]->value,
     ]);
+});
+
+Route::get('category', function () {
+    $category = Category::select('*')->where('status', 1)->get();
+    return response()->json($category);
+});
+Route::get('products', function () {
+    $product = Product::select('products.*', 'categories.name as category')->where('products.status', 1)
+        ->join('categories', 'categories.id', 'products.type')
+        ->orderBy('products.type', 'asc')->get();
+
+    $temp = '';
+    foreach ($product as $item) {
+        
+        $productByCat[] = $item;
+        $item->type = $temp;
+        if ($item->type == $temp) {
+
+        }
+    }
+
+    return response()->json($product);
 });

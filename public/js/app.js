@@ -5346,11 +5346,17 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   },
   data: function data() {
     return {
-      company: []
+      company: [],
+      categories: [],
+      products: [],
+      productBycats: []
     };
   },
   mounted: function mounted() {
     this.getSettings();
+    this.getCategories();
+    this.getProducts();
+    this.getProductBycats();
   },
   methods: {
     getSettings: function getSettings() {
@@ -5368,11 +5374,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
               case 4:
                 resp = _context.sent;
                 _this.company = resp.data;
-                console.log(resp.data);
-                _context.next = 12;
+                _context.next = 11;
                 break;
-              case 9:
-                _context.prev = 9;
+              case 8:
+                _context.prev = 8;
                 _context.t0 = _context["catch"](0);
                 if (err.response) {
                   // client received an error response (5xx, 4xx)
@@ -5383,12 +5388,99 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 } else {
                   console.log("Client Error:", err);
                 }
-              case 12:
+              case 11:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, null, [[0, 9]]);
+        }, _callee, null, [[0, 8]]);
+      }))();
+    },
+    getCategories: function getCategories() {
+      var _this2 = this;
+      return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+        var url, resp;
+        return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.prev = 0;
+                url = "api/category";
+                _context2.next = 4;
+                return axios__WEBPACK_IMPORTED_MODULE_7___default().get(url);
+              case 4:
+                resp = _context2.sent;
+                _this2.categories = resp.data;
+                _context2.next = 11;
+                break;
+              case 8:
+                _context2.prev = 8;
+                _context2.t0 = _context2["catch"](0);
+                if (err.response) {
+                  // client received an error response (5xx, 4xx)
+                  console.log("Server Error:", err);
+                } else if (err.request) {
+                  // client never received a response, or request never left
+                  console.log("Network Error:", err);
+                } else {
+                  console.log("Client Error:", err);
+                }
+              case 11:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, null, [[0, 8]]);
+      }))();
+    },
+    getProducts: function getProducts() {
+      var _this3 = this;
+      return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
+        var url, resp;
+        return _regeneratorRuntime().wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                _context3.prev = 0;
+                url = "api/products";
+                _context3.next = 4;
+                return axios__WEBPACK_IMPORTED_MODULE_7___default().get(url);
+              case 4:
+                resp = _context3.sent;
+                _this3.products = resp.data;
+                _context3.next = 11;
+                break;
+              case 8:
+                _context3.prev = 8;
+                _context3.t0 = _context3["catch"](0);
+                if (err.response) {
+                  // client received an error response (5xx, 4xx)
+                  console.log("Server Error:", err);
+                } else if (err.request) {
+                  // client never received a response, or request never left
+                  console.log("Network Error:", err);
+                } else {
+                  console.log("Client Error:", err);
+                }
+              case 11:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3, null, [[0, 8]]);
+      }))();
+    },
+    getProductBycats: function getProductBycats() {
+      return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
+        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+              case "end":
+                return _context4.stop();
+            }
+          }
+        }, _callee4);
       }))();
     }
   }
@@ -5422,7 +5514,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  props: ['categories']
+});
 
 /***/ }),
 
@@ -5452,7 +5546,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  props: ['products', 'categories', 'productBycats']
+});
 
 /***/ }),
 
@@ -5539,7 +5635,17 @@ var render = function render() {
     attrs: {
       company: _vm.company
     }
-  })], 1), _vm._v(" "), _c("div", [_c("Slider")], 1), _vm._v(" "), _c("div", [_c("Category")], 1), _vm._v(" "), _c("div", [_c("FeatureProducts")], 1), _vm._v(" "), _c("div", [_c("Banner")], 1), _vm._v(" "), _c("div", [_c("Footer", {
+  })], 1), _vm._v(" "), _c("div", [_c("Slider")], 1), _vm._v(" "), _c("div", [_c("Category", {
+    attrs: {
+      categories: _vm.categories
+    }
+  })], 1), _vm._v(" "), _c("div", [_c("FeatureProducts", {
+    attrs: {
+      products: _vm.products,
+      categories: _vm.categories,
+      productBycats: _vm.productBycats
+    }
+  })], 1), _vm._v(" "), _c("div", [_c("Banner")], 1), _vm._v(" "), _c("div", [_c("Footer", {
     attrs: {
       company: _vm.company
     }
@@ -5652,138 +5758,34 @@ __webpack_require__.r(__webpack_exports__);
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
-  return _vm._m(0);
-};
-var staticRenderFns = [function () {
-  var _vm = this,
-    _c = _vm._self._c;
   return _c("div", {
     staticClass: "items-category"
   }, [_c("div", {
     staticClass: "container"
   }, [_c("div", {
     staticClass: "row justify-content-center"
-  }, [_c("div", {
-    staticClass: "col-12 col-sm-6 col-md-3 mb-2"
-  }, [_c("a", {
-    staticClass: "product-item d-flex flex-column align-items-center justify-content-center",
-    staticStyle: {
-      "background-image": "url(assets/images/category/bg/category_1.png)"
-    },
-    attrs: {
-      href: "shop_grid+list_3col.html"
-    }
-  }, [_c("div", {
-    staticClass: "categories-img"
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/category/soyabean.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h2", [_vm._v("Soyabean Oil")]), _vm._v(" "), _c("p", [_vm._v("4 Items")])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-12 col-sm-6 col-md-3 mb-2"
-  }, [_c("a", {
-    staticClass: "product-item d-flex flex-column align-items-center justify-content-center",
-    staticStyle: {
-      "background-image": "url(assets/images/category/bg/category_2.png)"
-    },
-    attrs: {
-      href: "shop_grid+list_3col.html"
-    }
-  }, [_c("div", {
-    staticClass: "categories-img"
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/category/mustard.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h2", [_vm._v("Mustard Oil")]), _vm._v(" "), _c("p", [_vm._v("4 Items")])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-12 col-sm-6 col-md-3 mb-2"
-  }, [_c("a", {
-    staticClass: "product-item d-flex flex-column align-items-center justify-content-center",
-    staticStyle: {
-      "background-image": "url(assets/images/category/bg/category_3.png)"
-    },
-    attrs: {
-      href: "shop_grid+list_3col.html"
-    }
-  }, [_c("div", {
-    staticClass: "categories-img"
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/category/salt.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h2", [_vm._v("Salt")]), _vm._v(" "), _c("p", [_vm._v("2 Items")])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-12 col-sm-6 col-md-3 mb-2"
-  }, [_c("a", {
-    staticClass: "product-item d-flex flex-column align-items-center justify-content-center",
-    staticStyle: {
-      "background-image": "url(assets/images/category/bg/category_4.png)"
-    },
-    attrs: {
-      href: "shop_grid+list_3col.html"
-    }
-  }, [_c("div", {
-    staticClass: "categories-img"
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/category/rice.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h2", [_vm._v("Rice")]), _vm._v(" "), _c("p", [_vm._v("2 Items")])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-12 col-sm-6 col-md-3 mb-2"
-  }, [_c("a", {
-    staticClass: "product-item d-flex flex-column align-items-center justify-content-center",
-    staticStyle: {
-      "background-image": "url(assets/images/category/bg/category_4.png)"
-    },
-    attrs: {
-      href: "shop_grid+list_3col.html"
-    }
-  }, [_c("div", {
-    staticClass: "categories-img"
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/category/flour.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h2", [_vm._v("flour")]), _vm._v(" "), _c("p", [_vm._v("2 Items")])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-12 col-sm-6 col-md-3 mb-2"
-  }, [_c("a", {
-    staticClass: "product-item d-flex flex-column align-items-center justify-content-center",
-    staticStyle: {
-      "background-image": "url(assets/images/category/bg/category_5.png)"
-    },
-    attrs: {
-      href: "shop_grid+list_3col.html"
-    }
-  }, [_c("div", {
-    staticClass: "categories-img"
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/category/puffed.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h2", [_vm._v("Puffed Rice")]), _vm._v(" "), _c("p", [_vm._v("4 Items")])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-12 col-sm-6 col-md-3 mb-2"
-  }, [_c("a", {
-    staticClass: "product-item d-flex flex-column align-items-center justify-content-center",
-    staticStyle: {
-      "background-image": "url(assets/images/category/bg/category_5.png)"
-    },
-    attrs: {
-      href: "shop_grid+list_3col.html"
-    }
-  }, [_c("div", {
-    staticClass: "categories-img"
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/category/tissue.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h2", [_vm._v("Tissue Paper")]), _vm._v(" "), _c("p", [_vm._v("2 Items")])])])])])]);
-}];
+  }, _vm._l(_vm.categories, function (category) {
+    return _c("div", {
+      staticClass: "col-12 col-sm-6 col-md-3 mb-2"
+    }, [_c("a", {
+      staticClass: "product-item d-flex flex-column align-items-center justify-content-center",
+      style: {
+        "background-image": "url( assets/images/category/bg/category_" + category.id + ".png)"
+      },
+      attrs: {
+        href: "shop_grid+list_3col.html"
+      }
+    }, [_c("div", {
+      staticClass: "categories-img"
+    }, [_c("img", {
+      attrs: {
+        src: "images/category/" + JSON.parse(category.image)[0],
+        alt: category.name
+      }
+    })]), _vm._v(" "), _c("h2", [_vm._v(_vm._s(category.name))]), _vm._v(" "), _c("p", [_vm._v(_vm._s(category.desc))])])]);
+  }), 0)])]);
+};
+var staticRenderFns = [];
 render._withStripped = true;
 
 
@@ -5837,11 +5839,6 @@ __webpack_require__.r(__webpack_exports__);
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
-  return _vm._m(0);
-};
-var staticRenderFns = [function () {
-  var _vm = this,
-    _c = _vm._self._c;
   return _c("div", {
     staticClass: "feature-products"
   }, [_c("div", {
@@ -5852,7 +5849,13 @@ var staticRenderFns = [function () {
     staticClass: "col-12 text-center"
   }, [_c("h1", {
     staticClass: "title mx-auto"
-  }, [_vm._v("Featured Product")])]), _vm._v(" "), _c("div", {
+  }, [_vm._v("Featured Product")]), _vm._v(" "), _c("button", {
+    on: {
+      click: function click($event) {
+        return _vm.myFunction();
+      }
+    }
+  }, [_vm._v("Click Me")])]), _vm._v(" "), _c("div", {
     staticClass: "col-12"
   }, [_c("div", {
     attrs: {
@@ -5860,1578 +5863,23 @@ var staticRenderFns = [function () {
     }
   }, [_c("ul", {
     staticClass: "tab-control"
-  }, [_c("li", [_c("a", {
+  }, [_vm._m(0), _vm._v(" "), _vm._l(_vm.categories, function (category) {
+    return _c("li", [_c("a", {
+      attrs: {
+        href: "#category_" + category.id
+      }
+    }, [_vm._v(_vm._s(category.name))])]);
+  })], 2)])])])])]);
+};
+var staticRenderFns = [function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("li", [_c("a", {
     staticClass: "active",
     attrs: {
-      href: "#tab-1"
+      href: "#allcat"
     }
-  }, [_vm._v("All")])]), _vm._v(" "), _c("li", [_c("a", {
-    attrs: {
-      href: "#tab-2"
-    }
-  }, [_vm._v("Oranges")])]), _vm._v(" "), _c("li", [_c("a", {
-    attrs: {
-      href: "#tab-3"
-    }
-  }, [_vm._v("Fresh Meat")])]), _vm._v(" "), _c("li", [_c("a", {
-    attrs: {
-      href: "#tab-4"
-    }
-  }, [_vm._v("Vegetables")])]), _vm._v(" "), _c("li", [_c("a", {
-    attrs: {
-      href: "#tab-5"
-    }
-  }, [_vm._v("Fastfood")])])]), _vm._v(" "), _c("div", {
-    attrs: {
-      id: "tab-1"
-    }
-  }, [_c("div", {
-    staticClass: "row no-gutters-sm"
-  }, [_c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product01.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product02.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product03.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product04.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product05.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product06.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product07.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product08.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])])])]), _vm._v(" "), _c("div", {
-    attrs: {
-      id: "tab-2"
-    }
-  }, [_c("div", {
-    staticClass: "row no-gutters-sm"
-  }, [_c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product04.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product05.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product02.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product01.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product05.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product08.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product04.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product06.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])])])]), _vm._v(" "), _c("div", {
-    attrs: {
-      id: "tab-3"
-    }
-  }, [_c("div", {
-    staticClass: "row no-gutters-sm"
-  }, [_c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product03.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product02.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product05.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product04.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product01.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product06.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product08.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product07.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])])])]), _vm._v(" "), _c("div", {
-    attrs: {
-      id: "tab-4"
-    }
-  }, [_c("div", {
-    staticClass: "row no-gutters-sm"
-  }, [_c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product01.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product02.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product03.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product04.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product05.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product06.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product07.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product08.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])])])]), _vm._v(" "), _c("div", {
-    attrs: {
-      id: "tab-5"
-    }
-  }, [_c("div", {
-    staticClass: "row no-gutters-sm"
-  }, [_c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product04.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product05.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product02.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product01.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product05.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product08.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product04.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("Apple")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $30.00\n                                        "), _c("del", [_vm._v("$45.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])]), _vm._v(" "), _c("div", {
-    staticClass: "col-6 col-md-4 col-lg-3"
-  }, [_c("div", {
-    staticClass: "product"
-  }, [_c("a", {
-    staticClass: "product-img",
-    attrs: {
-      href: "shop_detail.html"
-    }
-  }, [_c("img", {
-    attrs: {
-      src: "assets/images/product/product06.png",
-      alt: ""
-    }
-  })]), _vm._v(" "), _c("h5", {
-    staticClass: "product-type"
-  }, [_vm._v("Oranges")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-name"
-  }, [_vm._v("\n                                        Pure Pineapple\n                                    ")]), _vm._v(" "), _c("h3", {
-    staticClass: "product-price"
-  }, [_vm._v("\n                                        $14.00\n                                        "), _c("del", [_vm._v("$35.00")])]), _vm._v(" "), _c("div", {
-    staticClass: "product-select"
-  }, [_c("button", {
-    staticClass: "add-to-wishlist round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_heart_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-cart round-icon-btn"
-  }, [_c("i", {
-    staticClass: "icon_bag_alt"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "add-to-compare round-icon-btn"
-  }, [_c("i", {
-    staticClass: "fas fa-random"
-  })]), _vm._v(" "), _c("button", {
-    staticClass: "quickview round-icon-btn"
-  }, [_c("i", {
-    staticClass: "far fa-eye"
-  })])])])])])])])])])])]);
+  }, [_vm._v("All")])]);
 }];
 render._withStripped = true;
 

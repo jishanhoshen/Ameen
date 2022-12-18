@@ -1199,8 +1199,7 @@ a {
   .product:hover:after {
     height: 45px;
     box-shadow: 0px 20px 32px 0 rgba(53, 78, 84, 0.15);
-    opacity: 1;
-    bottom: -40px; }
+    opacity: 1; }
   .product:after {
     content: "";
     position: absolute;
@@ -7178,3 +7177,13 @@ footer.coffee .newletter {
 @media (min-width: 576px) and (max-width: 767px) {
   .error-404 .normal-btn {
     margin-bottom: 60px; } }
+
+
+    .product:hover .product-name{
+      opacity: 1 !important;
+      visibility:visible !important;
+    }
+    .product:hover::after{
+      opacity: 0 !important;
+      height: 0 !important;
+    }

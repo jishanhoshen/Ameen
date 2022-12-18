@@ -1,24 +1,25 @@
 <template>
-<div>
     <div>
-        <Header :company="company"></Header>
+        <div>
+            <Header :company="company"></Header>
+        </div>
+        <div>
+            <Slider></Slider>
+        </div>
+        <div>
+            <Category :categories="categories"></Category>
+        </div>
+        <div>
+            <FeatureProducts :products="products" :categories="categories" :productBycats="productBycats">
+            </FeatureProducts>
+        </div>
+        <div>
+            <Banner></Banner>
+        </div>
+        <div>
+            <Footer :company="company"></Footer>
+        </div>
     </div>
-    <div>
-        <Slider></Slider>
-    </div>
-    <div>
-        <Category></Category>
-    </div>
-    <div>
-        <FeatureProducts></FeatureProducts>
-    </div>
-    <div>
-        <Banner></Banner>
-    </div>
-    <div>
-        <Footer :company="company"></Footer>
-    </div>
-</div>
 </template>
 
 <script>
@@ -43,10 +44,16 @@ export default {
     data() {
         return {
             company: [],
+            categories: [],
+            products: [],
+            productBycats: [],
         }
     },
     mounted() {
         this.getSettings();
+        this.getCategories();
+        this.getProducts();
+        this.getProductBycats();
     },
     methods: {
         async getSettings() {
@@ -54,7 +61,6 @@ export default {
                 const url = `api/settings`
                 const resp = await axios.get(url);
                 this.company = resp.data;
-                console.log(resp.data);
             } catch {
                 if (err.response) {
                     // client received an error response (5xx, 4xx)
@@ -66,6 +72,43 @@ export default {
                     console.log("Client Error:", err)
                 }
             }
+        },
+        async getCategories() {
+            try {
+                const url = `api/category`
+                const resp = await axios.get(url);
+                this.categories = resp.data;
+            } catch {
+                if (err.response) {
+                    // client received an error response (5xx, 4xx)
+                    console.log("Server Error:", err)
+                } else if (err.request) {
+                    // client never received a response, or request never left
+                    console.log("Network Error:", err)
+                } else {
+                    console.log("Client Error:", err)
+                }
+            }
+        },
+        async getProducts() {
+            try {
+                const url = `api/products`
+                const resp = await axios.get(url);
+                this.products = resp.data;
+            } catch {
+                if (err.response) {
+                    // client received an error response (5xx, 4xx)
+                    console.log("Server Error:", err)
+                } else if (err.request) {
+                    // client never received a response, or request never left
+                    console.log("Network Error:", err)
+                } else {
+                    console.log("Client Error:", err)
+                }
+            }
+        },
+        async getProductBycats() {
+
         }
     }
 };

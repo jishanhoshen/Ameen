@@ -55,7 +55,7 @@
                                 <a class="menu-item active" href="/">Home</a>
                             </li>
                             <li class="toggleable">
-                                <a class="menu-item" href="#">Products</a>
+                                <a class="menu-item" href="#feature-products">Products</a>
                             </li>
                             <li class="toggleable">
                                 <a class="menu-item" href="#">About us</a>

@@ -134,6 +134,9 @@
 /************************************
 	Reset
 *************************************/
+html{
+  scroll-behavior: smooth;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -7192,4 +7195,7 @@ footer.coffee .newletter {
     }
     .feature-products .tab-control li{
       padding: 15px 15px !important;
+    }
+    header .navigation .navgition-menu ul .toggleable .menu-item:after{
+      content: "" !important;
     }

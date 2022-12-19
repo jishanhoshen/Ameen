@@ -1,5 +1,5 @@
 <template>
-    <div class="feature-products">
+    <div class="feature-products" id="feature-products">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
